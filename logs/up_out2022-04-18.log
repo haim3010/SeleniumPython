@@ -1,0 +1,246 @@
+10:44:03,842 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+10:44:03,842 root INFO 
+
+10:44:03,844 root ERROR C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:65: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(mainDir + 'Driver\\chromedriver.exe')#,options=options)
+
+10:44:04,374 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:55946/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+10:44:04,376 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:55946
+10:44:04,960 urllib3.connectionpool DEBUG http://localhost:55946 "POST /session HTTP/1.1" 500 1089
+10:44:04,961 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:44:06,989 root ERROR Traceback (most recent call last):
+
+10:44:06,989 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py", line 65, in <module>
+
+10:44:06,990 root ERROR     
+10:44:06,990 root ERROR driver = webdriver.Chrome(mainDir + 'Driver\\chromedriver.exe')#,options=options)
+10:44:06,990 root ERROR 
+
+10:44:06,990 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 70, in __init__
+
+10:44:06,990 root ERROR     
+10:44:06,991 root ERROR super(WebDriver, self).__init__(DesiredCapabilities.CHROME['browserName'], "goog",
+10:44:06,991 root ERROR 
+
+10:44:06,991 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 93, in __init__
+
+10:44:06,991 root ERROR     
+10:44:06,991 root ERROR RemoteWebDriver.__init__(
+10:44:06,991 root ERROR 
+
+10:44:06,991 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 269, in __init__
+
+10:44:06,992 root ERROR     
+10:44:06,992 root ERROR self.start_session(capabilities, browser_profile)
+10:44:06,992 root ERROR 
+
+10:44:06,992 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in start_session
+
+10:44:06,993 root ERROR     
+10:44:06,993 root ERROR response = self.execute(Command.NEW_SESSION, parameters)
+10:44:06,993 root ERROR 
+
+10:44:06,993 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+
+10:44:06,993 root ERROR     
+10:44:06,993 root ERROR self.error_handler.check_response(response)
+10:44:06,993 root ERROR 
+
+10:44:06,993 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+
+10:44:06,994 root ERROR     
+10:44:06,994 root ERROR raise exception_class(message, screen, stacktrace)
+10:44:06,994 root ERROR 
+
+10:44:06,994 root ERROR selenium.common.exceptions
+10:44:06,994 root ERROR .
+10:44:06,994 root ERROR SessionNotCreatedException
+10:44:06,994 root ERROR : 
+10:44:06,994 root ERROR Message: session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 100.0.4896.75 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00EC7AC3+2587331]
+	Ordinal0 [0x00E5ADD1+2141649]
+	Ordinal0 [0x00D53BB8+1063864]
+	Ordinal0 [0x00D73638+1193528]
+	Ordinal0 [0x00D6F4B5+1176757]
+	Ordinal0 [0x00D6CC51+1166417]
+	Ordinal0 [0x00D9D12F+1364271]
+	Ordinal0 [0x00D9CD5A+1363290]
+	Ordinal0 [0x00D984A6+1344678]
+	Ordinal0 [0x00D753F6+1201142]
+	Ordinal0 [0x00D762E6+1204966]
+	GetHandleVerifier [0x0106DF22+1680738]
+	GetHandleVerifier [0x01120DBC+2413564]
+	GetHandleVerifier [0x00F5D151+563089]
+	GetHandleVerifier [0x00F5BF13+558419]
+	Ordinal0 [0x00E6081E+2164766]
+	Ordinal0 [0x00E65508+2184456]
+	Ordinal0 [0x00E65650+2184784]
+	Ordinal0 [0x00E6F5BC+2225596]
+	BaseThreadInitThunk [0x7545FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77357A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77357A4E+238]
+
+10:44:06,995 root ERROR 
+
+10:49:35,397 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+10:49:35,397 root INFO 
+
+10:49:35,398 root ERROR C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:65: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(mainDir + 'Driver\\chromedriver.exe')#,options=options)
+
+10:49:35,965 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:56049/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+10:49:35,965 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:56049
+10:49:36,505 urllib3.connectionpool DEBUG http://localhost:56049 "POST /session HTTP/1.1" 200 789
+10:49:36,506 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:49:36,506 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:56049/session/75f44336bd8680007ed5d4b253c17653/timeouts {"implicit": 5000}
+10:49:36,507 urllib3.connectionpool DEBUG http://localhost:56049 "POST /session/75f44336bd8680007ed5d4b253c17653/timeouts HTTP/1.1" 200 14
+10:49:36,507 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:49:36,507 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:56049/session/75f44336bd8680007ed5d4b253c17653/url {"url": "https://architect.futora.com/#/login"}
+10:49:38,449 urllib3.connectionpool DEBUG http://localhost:56049 "POST /session/75f44336bd8680007ed5d4b253c17653/url HTTP/1.1" 200 14
+10:49:38,449 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:49:40,456 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:56049/session/75f44336bd8680007ed5d4b253c17653/element {"using": "xpath", "value": "//input[@type='text']"}
+10:49:40,475 urllib3.connectionpool DEBUG http://localhost:56049 "POST /session/75f44336bd8680007ed5d4b253c17653/element HTTP/1.1" 200 88
+10:49:40,475 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:49:40,476 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:56049/session/75f44336bd8680007ed5d4b253c17653/element/8e501737-e71c-4c4d-a2d8-5a826c6a6bb2/value {"text": "Selenium User", "value": ["S", "e", "l", "e", "n", "i", "u", "m", " ", "U", "s", "e", "r"], "id": "8e501737-e71c-4c4d-a2d8-5a826c6a6bb2"}
+10:49:40,523 urllib3.connectionpool DEBUG http://localhost:56049 "POST /session/75f44336bd8680007ed5d4b253c17653/element/8e501737-e71c-4c4d-a2d8-5a826c6a6bb2/value HTTP/1.1" 200 14
+10:49:40,523 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:49:40,523 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:56049/session/75f44336bd8680007ed5d4b253c17653/element {"using": "xpath", "value": "//input[@type='password']"}
+10:49:40,529 urllib3.connectionpool DEBUG http://localhost:56049 "POST /session/75f44336bd8680007ed5d4b253c17653/element HTTP/1.1" 200 88
+10:49:40,530 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:49:40,530 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:56049/session/75f44336bd8680007ed5d4b253c17653/element/b601992f-9ed2-4a25-a786-fa34d1e73a2b/value {"text": "!Q!Q1q1q", "value": ["!", "Q", "!", "Q", "1", "q", "1", "q"], "id": "b601992f-9ed2-4a25-a786-fa34d1e73a2b"}
+10:49:40,558 urllib3.connectionpool DEBUG http://localhost:56049 "POST /session/75f44336bd8680007ed5d4b253c17653/element/b601992f-9ed2-4a25-a786-fa34d1e73a2b/value HTTP/1.1" 200 14
+10:49:40,558 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:49:40,558 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:56049/session/75f44336bd8680007ed5d4b253c17653/element {"using": "xpath", "value": "//button[@type='submit']"}
+10:49:40,565 urllib3.connectionpool DEBUG http://localhost:56049 "POST /session/75f44336bd8680007ed5d4b253c17653/element HTTP/1.1" 200 88
+10:49:40,565 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:49:40,565 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:56049/session/75f44336bd8680007ed5d4b253c17653/element/e753ce9a-4db4-4986-90cb-5c9bd4fcf575/click {"id": "e753ce9a-4db4-4986-90cb-5c9bd4fcf575"}
+10:49:40,585 urllib3.connectionpool DEBUG http://localhost:56049 "POST /session/75f44336bd8680007ed5d4b253c17653/element/e753ce9a-4db4-4986-90cb-5c9bd4fcf575/click HTTP/1.1" 200 14
+10:49:40,585 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:49:42,596 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:56049/session/75f44336bd8680007ed5d4b253c17653/url {"url": "https://architect.modelity.com/ArchitectProd/#/product?payoffId=2242&tradeProcessId=-1&productId=-1&ou=277&left=tradesDetailsTab&right=''"}
+10:49:43,650 urllib3.connectionpool DEBUG http://localhost:56049 "POST /session/75f44336bd8680007ed5d4b253c17653/url HTTP/1.1" 200 14
+10:49:43,650 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:49:43,650 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:56049/session/75f44336bd8680007ed5d4b253c17653/timeouts {"implicit": 30000}
+10:49:43,652 urllib3.connectionpool DEBUG http://localhost:56049 "POST /session/75f44336bd8680007ed5d4b253c17653/timeouts HTTP/1.1" 200 14
+10:49:43,652 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:49:43,652 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:56049/session/75f44336bd8680007ed5d4b253c17653/element {"using": "xpath", "value": "//body/app-root[1]/app-container-page[1]/div[1]/app-product[1]/windows-manager[1]/as-split[1]/as-split-area[2]/wm-window[1]/product-main[1]/div[2]/form[1]/div[1]/dynamic-details-block[3]/div[2]/dynamic-block-content[1]/div[1]/custom-input-holder[1]/div[3]/div[1]/input[1]"}
+10:49:52,39 root ERROR Traceback (most recent call last):
+
+10:49:52,39 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py", line 76, in <module>
+
+10:49:52,39 root ERROR     
+10:49:52,39 root ERROR up_out.Amount(rows[1])
+10:49:52,39 root ERROR 
+
+10:49:52,39 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\Pages\up_out.py", line 29, in Amount
+
+10:49:52,40 root ERROR     
+10:49:52,40 root ERROR self.driver.find_element_by_xpath(self.amount_path).clear()
+10:49:52,40 root ERROR 
+
+10:49:52,40 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 521, in find_element_by_xpath
+
+10:49:52,41 root ERROR     
+10:49:52,41 root ERROR return self.find_element(by=By.XPATH, value=xpath)
+10:49:52,41 root ERROR 
+
+10:49:52,41 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1248, in find_element
+
+10:49:52,41 root ERROR     
+10:49:52,41 root ERROR return self.execute(Command.FIND_ELEMENT, {
+10:49:52,41 root ERROR 
+
+10:49:52,41 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 423, in execute
+
+10:49:52,41 root ERROR     
+10:49:52,41 root ERROR response = self.command_executor.execute(driver_command, params)
+10:49:52,41 root ERROR 
+
+10:49:52,41 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 333, in execute
+
+10:49:52,43 root ERROR     
+10:49:52,44 root ERROR return self._request(command_info[0], url, body=data)
+10:49:52,44 root ERROR 
+
+10:49:52,44 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 355, in _request
+
+10:49:52,44 root ERROR     
+10:49:52,44 root ERROR resp = self._conn.request(method, url, body=body, headers=headers)
+10:49:52,44 root ERROR 
+
+10:49:52,44 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\urllib3\request.py", line 78, in request
+
+10:49:52,45 root ERROR     
+10:49:52,45 root ERROR return self.request_encode_body(
+10:49:52,46 root ERROR 
+
+10:49:52,46 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\urllib3\request.py", line 170, in request_encode_body
+
+10:49:52,46 root ERROR     
+10:49:52,46 root ERROR return self.urlopen(method, url, **extra_kw)
+10:49:52,46 root ERROR 
+
+10:49:52,46 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\urllib3\poolmanager.py", line 375, in urlopen
+
+10:49:52,48 root ERROR     
+10:49:52,48 root ERROR response = conn.urlopen(method, u.request_uri, **kw)
+10:49:52,48 root ERROR 
+
+10:49:52,48 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+
+10:49:52,50 root ERROR     
+10:49:52,50 root ERROR httplib_response = self._make_request(
+10:49:52,50 root ERROR 
+
+10:49:52,50 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+
+10:49:52,51 root ERROR     
+10:49:52,51 root ERROR six.raise_from(e, None)
+10:49:52,51 root ERROR 
+
+10:49:52,51 root ERROR   File "<string>", line 3, in raise_from
+
+10:49:52,51 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+
+10:49:52,51 root ERROR     
+10:49:52,51 root ERROR httplib_response = conn.getresponse()
+10:49:52,51 root ERROR 
+
+10:49:52,51 root ERROR   File "C:\Users\haim\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1371, in getresponse
+
+10:49:52,54 root ERROR     
+10:49:52,54 root ERROR response.begin()
+10:49:52,54 root ERROR 
+
+10:49:52,54 root ERROR   File "C:\Users\haim\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 319, in begin
+
+10:49:52,55 root ERROR     
+10:49:52,55 root ERROR version, status, reason = self._read_status()
+10:49:52,55 root ERROR 
+
+10:49:52,55 root ERROR   File "C:\Users\haim\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 280, in _read_status
+
+10:49:52,55 root ERROR     
+10:49:52,55 root ERROR line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+10:49:52,55 root ERROR 
+
+10:49:52,55 root ERROR   File "C:\Users\haim\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+
+10:49:52,58 root ERROR     
+10:49:52,58 root ERROR return self._sock.recv_into(b)
+10:49:52,58 root ERROR 
+
+10:49:52,59 root ERROR KeyboardInterrupt
+10:49:52,59 root ERROR 
+10:49:52,59 root ERROR 
+

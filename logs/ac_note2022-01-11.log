@@ -1,0 +1,128 @@
+11:05:19,137 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+11:05:19,137 root INFO 
+
+11:05:19,137 root ERROR Traceback (most recent call last):
+
+11:05:19,137 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\scheduler.py", line 8, in <module>
+
+11:05:19,137 root ERROR     
+11:05:19,137 root ERROR schedule.every().day.do(run_script())
+11:05:19,137 root ERROR 
+
+11:05:19,137 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\scheduler.py", line 6, in run_script
+
+11:05:19,137 root ERROR     
+11:05:19,137 root ERROR runpy.run_path('Autocall.py')
+11:05:19,153 root ERROR 
+
+11:05:19,153 root ERROR   File "C:\Program Files\Python39\lib\runpy.py", line 268, in run_path
+
+11:05:19,153 root ERROR     
+11:05:19,153 root ERROR return _run_module_code(code, init_globals, run_name,
+11:05:19,153 root ERROR 
+
+11:05:19,153 root ERROR   File "C:\Program Files\Python39\lib\runpy.py", line 97, in _run_module_code
+
+11:05:19,153 root ERROR     
+11:05:19,153 root ERROR _run_code(code, mod_globals, init_globals,
+11:05:19,153 root ERROR 
+
+11:05:19,153 root ERROR   File "C:\Program Files\Python39\lib\runpy.py", line 87, in _run_code
+
+11:05:19,153 root ERROR     
+11:05:19,153 root ERROR exec(code, run_globals)
+11:05:19,153 root ERROR 
+
+11:05:19,153 root ERROR   File "Autocall.py", line 48, in <module>
+
+11:05:19,153 root ERROR     
+11:05:19,153 root ERROR sum_RFQs = int(configParser.get('Autocall', 'sum_RFQs'))
+11:05:19,153 root ERROR 
+
+11:05:19,153 root ERROR   File "C:\Program Files\Python39\lib\configparser.py", line 781, in get
+
+11:05:19,153 root ERROR     
+11:05:19,153 root ERROR d = self._unify_values(section, vars)
+11:05:19,153 root ERROR 
+
+11:05:19,153 root ERROR   File "C:\Program Files\Python39\lib\configparser.py", line 1149, in _unify_values
+
+11:05:19,153 root ERROR     
+11:05:19,153 root ERROR raise NoSectionError(section) from None
+11:05:19,153 root ERROR 
+
+11:05:19,153 root ERROR configparser
+11:05:19,153 root ERROR .
+11:05:19,153 root ERROR NoSectionError
+11:05:19,153 root ERROR : 
+11:05:19,153 root ERROR No section: 'Autocall'
+11:05:19,153 root ERROR 
+
+11:05:30,462 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+11:05:30,462 root INFO 
+
+11:05:30,462 root ERROR Traceback (most recent call last):
+
+11:05:30,462 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\scheduler.py", line 8, in <module>
+
+11:05:30,462 root ERROR     
+11:05:30,462 root ERROR schedule.every().day.do(run_script())
+11:05:30,462 root ERROR 
+
+11:05:30,462 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\scheduler.py", line 6, in run_script
+
+11:05:30,462 root ERROR     
+11:05:30,462 root ERROR runpy.run_path('Autocall.py')
+11:05:30,462 root ERROR 
+
+11:05:30,462 root ERROR   File "C:\Program Files\Python39\lib\runpy.py", line 268, in run_path
+
+11:05:30,462 root ERROR     
+11:05:30,462 root ERROR return _run_module_code(code, init_globals, run_name,
+11:05:30,462 root ERROR 
+
+11:05:30,462 root ERROR   File "C:\Program Files\Python39\lib\runpy.py", line 97, in _run_module_code
+
+11:05:30,462 root ERROR     
+11:05:30,462 root ERROR _run_code(code, mod_globals, init_globals,
+11:05:30,462 root ERROR 
+
+11:05:30,462 root ERROR   File "C:\Program Files\Python39\lib\runpy.py", line 87, in _run_code
+
+11:05:30,462 root ERROR     
+11:05:30,462 root ERROR exec(code, run_globals)
+11:05:30,462 root ERROR 
+
+11:05:30,462 root ERROR   File "Autocall.py", line 48, in <module>
+
+11:05:30,462 root ERROR     
+11:05:30,462 root ERROR sum_RFQs = int(configParser.get('Autocall', 'sum_RFQs'))
+11:05:30,462 root ERROR 
+
+11:05:30,462 root ERROR   File "C:\Program Files\Python39\lib\configparser.py", line 781, in get
+
+11:05:30,462 root ERROR     
+11:05:30,462 root ERROR d = self._unify_values(section, vars)
+11:05:30,478 root ERROR 
+
+11:05:30,478 root ERROR   File "C:\Program Files\Python39\lib\configparser.py", line 1149, in _unify_values
+
+11:05:30,478 root ERROR     
+11:05:30,478 root ERROR raise NoSectionError(section) from None
+11:05:30,478 root ERROR 
+
+11:05:30,478 root ERROR configparser
+11:05:30,478 root ERROR .
+11:05:30,478 root ERROR NoSectionError
+11:05:30,478 root ERROR : 
+11:05:30,478 root ERROR No section: 'Autocall'
+11:05:30,478 root ERROR 
+

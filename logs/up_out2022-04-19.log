@@ -1,0 +1,85 @@
+09:25:32,752 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+09:25:32,752 root INFO 
+
+09:25:32,759 root ERROR C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:65: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(mainDir + 'Driver\\chromedriver.exe',options=options)
+
+09:25:33,397 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:53071/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}
+09:25:33,397 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:53071
+09:25:33,990 urllib3.connectionpool DEBUG http://localhost:53071 "POST /session HTTP/1.1" 200 788
+09:25:33,990 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+09:25:33,990 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:53071/session/59aeab3b5f30c3f7a3fab2115e25c621/timeouts {"implicit": 5000}
+09:25:33,990 urllib3.connectionpool DEBUG http://localhost:53071 "POST /session/59aeab3b5f30c3f7a3fab2115e25c621/timeouts HTTP/1.1" 200 14
+09:25:33,990 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+09:25:33,990 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:53071/session/59aeab3b5f30c3f7a3fab2115e25c621/url {"url": "https://architect.futora.com"}
+09:25:34,114 urllib3.connectionpool DEBUG http://localhost:53071 "POST /session/59aeab3b5f30c3f7a3fab2115e25c621/url HTTP/1.1" 500 1161
+09:25:34,114 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+09:25:34,114 root ERROR Traceback (most recent call last):
+
+09:25:34,114 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py", line 68, in <module>
+
+09:25:34,114 root ERROR     
+09:25:34,114 root ERROR driver.get(URL)
+09:25:34,114 root ERROR 
+
+09:25:34,114 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 437, in get
+
+09:25:34,118 root ERROR     
+09:25:34,118 root ERROR self.execute(Command.GET, {'url': url})
+09:25:34,118 root ERROR 
+
+09:25:34,118 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+
+09:25:34,118 root ERROR     
+09:25:34,118 root ERROR self.error_handler.check_response(response)
+09:25:34,118 root ERROR 
+
+09:25:34,118 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+
+09:25:34,127 root ERROR     
+09:25:34,127 root ERROR raise exception_class(message, screen, stacktrace)
+09:25:34,127 root ERROR 
+
+09:25:34,127 root ERROR selenium.common.exceptions
+09:25:34,127 root ERROR .
+09:25:34,127 root ERROR WebDriverException
+09:25:34,127 root ERROR : 
+09:25:34,127 root ERROR Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: headless chrome=100.0.4896.75)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00C57413+2389011]
+	Ordinal0 [0x00BE9F61+1941345]
+	Ordinal0 [0x00ADC658+837208]
+	Ordinal0 [0x00AD8F28+823080]
+	Ordinal0 [0x00ACE27D+778877]
+	Ordinal0 [0x00ACEE3D+781885]
+	Ordinal0 [0x00ACE48A+779402]
+	Ordinal0 [0x00ACDA86+776838]
+	Ordinal0 [0x00ACC995+772501]
+	Ordinal0 [0x00ACCE6D+773741]
+	Ordinal0 [0x00ADDE5A+843354]
+	Ordinal0 [0x00B349BD+1198525]
+	Ordinal0 [0x00B2414C+1130828]
+	Ordinal0 [0x00B34302+1196802]
+	Ordinal0 [0x00B23F66+1130342]
+	Ordinal0 [0x00AFE546+976198]
+	Ordinal0 [0x00AFF456+980054]
+	GetHandleVerifier [0x00E09632+1727522]
+	GetHandleVerifier [0x00EBBA4D+2457661]
+	GetHandleVerifier [0x00CEEB81+569713]
+	GetHandleVerifier [0x00CEDD76+566118]
+	Ordinal0 [0x00BF0B2B+1968939]
+	Ordinal0 [0x00BF5988+1989000]
+	Ordinal0 [0x00BF5A75+1989237]
+	Ordinal0 [0x00BFECB1+2026673]
+	BaseThreadInitThunk [0x7545FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77357A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77357A4E+238]
+
+09:25:34,127 root ERROR 
+

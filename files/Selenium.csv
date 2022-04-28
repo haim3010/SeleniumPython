@@ -1,0 +1,38 @@
+Payoff,amount,solvefor,solvefor2,asset
+Autocall Swap,1000000,Coupon Per Period,AMZN,
+Autocall Swap,1000000,Upfront Premium,AMZN,
+Autocall Note,1000000,Coupon Rate,AMZN,
+Autocallable Reverse Convertible Note,1000000,Reoffer,AMZN,
+Autocallable Reverse Convertible Note,1000000,Coupon Rate,AMZN,
+Bond + Call Note,1000000,Participation,AMZN,NFLX
+Bond + Call Note,1000000,Reoffer,AMZN,NFLX
+Bonus Note,1000000,Reoffer,AMZN,NFLX
+Bonus Note,1000000,Bonus,AMZN,NFLX
+Call Up and Out Option,1000000,Rebate,AMZN,NFLX
+Call Up and Out Option,1000000,Premiun,AMZN,NFLX
+Issuer Callable Reverse Convertible Note,1000000,Reoffer,AMZN,NFLX
+Issuer Callable Reverse Convertible Note,1000000,Coupon Per Annum,AMZN,NFLX
+Participation Note,1000000,Reoffer,AMZN,NFLX
+Participation Note,1000000,Participation,AMZN,NFLX
+Reverse Convertible Note,1000000,Coupon Rate,AMZN,NFLX
+Reverse Convertible Note,1000000,Reoffer,AMZN,NFLX
+Vanilla Call Option,1000000,Premiun,AMZN,NFLX
+Vanilla Call Option,1000000,Participation,AMZN,NFLX
+Vanilla Call Spread Option,1000000,Premiun,AMZN,NFLX
+Vanilla Call Spread Option,1000000,Participation,AMZN,NFLX
+Autocall Note,1000000,Coupon Rate,AMZN,NFLX
+Autocall Swap,1000000,Upfront Premium,AMZN,NFLX
+Autocall Swap,1000000,Coupon Per Period,AMZN,NFLX
+Autocallable Reverse Convertible Note,1000000,Coupon Rate,AMZN,NFLX
+Autocallable Reverse Convertible Note,1000000,Reoffer,AMZN,NFLX
+Autocall Note,1000000,Reoffer,NFLX,AMZN
+Bond + Call Note,1000000,Reoffer,AMZN,
+Bond + Call Note,1000000,Participation,AMZN,
+Bonus Note,1000000,Reoffer,AMZN,
+Bonus Note,1000000,Bonus,AMZN,
+Issuer Callable Reverse Convertible Note,1000000,Coupon Per Annum,AMZN,
+Issuer Callable Reverse Convertible Note,1000000,Reoffer,AMZN,
+Participation Note,1000000,Reoffer,AMZN,
+Participation Note,1000000,Participation,AMZN,
+Reverse Convertible Note,1000000,Coupon Rate,AMZN,
+Reverse Convertible Note,1000000,Reoffer,AMZN,

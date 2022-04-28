@@ -1,0 +1,88 @@
+12:19:01,259 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+12:19:01,259 root INFO 
+
+12:19:01,312 root ERROR Traceback (most recent call last):
+
+12:19:01,312 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\Autocall.py", line 58, in <module>
+
+12:19:01,312 root ERROR     
+12:19:01,312 root ERROR AC_note.to_csv( mainDir+'Scripts\\ACHeatmap.csv')
+12:19:01,312 root ERROR 
+
+12:19:01,312 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\pandas\core\generic.py", line 3387, in to_csv
+
+12:19:01,343 root ERROR     
+12:19:01,343 root ERROR return DataFrameRenderer(formatter).to_csv(
+12:19:01,343 root ERROR 
+
+12:19:01,343 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\pandas\io\formats\format.py", line 1083, in to_csv
+
+12:19:01,343 root ERROR     
+12:19:01,343 root ERROR csv_formatter.save()
+12:19:01,343 root ERROR 
+
+12:19:01,343 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\pandas\io\formats\csvs.py", line 228, in save
+
+12:19:01,343 root ERROR     
+12:19:01,343 root ERROR with get_handle(
+12:19:01,343 root ERROR 
+
+12:19:01,343 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\pandas\io\common.py", line 642, in get_handle
+
+12:19:01,343 root ERROR     
+12:19:01,343 root ERROR handle = open(
+12:19:01,343 root ERROR 
+
+12:19:01,343 root ERROR PermissionError
+12:19:01,343 root ERROR : 
+12:19:01,343 root ERROR [Errno 13] Permission denied: 'C:\\Users\\Haim\\PycharmProjects\\SeleniumProject\\Selenium\\Scripts\\ACHeatmap.csv'
+12:19:01,343 root ERROR 
+
+12:19:48,448 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+12:19:48,448 root INFO 
+
+12:19:48,479 root ERROR Traceback (most recent call last):
+
+12:19:48,479 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\Autocall.py", line 58, in <module>
+
+12:19:48,479 root ERROR     
+12:19:48,479 root ERROR AC_note.to_csv( mainDir+'Scripts\\ACHeatmap.csv')
+12:19:48,479 root ERROR 
+
+12:19:48,479 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\pandas\core\generic.py", line 3387, in to_csv
+
+12:19:48,479 root ERROR     
+12:19:48,479 root ERROR return DataFrameRenderer(formatter).to_csv(
+12:19:48,479 root ERROR 
+
+12:19:48,479 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\pandas\io\formats\format.py", line 1083, in to_csv
+
+12:19:48,479 root ERROR     
+12:19:48,479 root ERROR csv_formatter.save()
+12:19:48,479 root ERROR 
+
+12:19:48,479 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\pandas\io\formats\csvs.py", line 228, in save
+
+12:19:48,479 root ERROR     
+12:19:48,479 root ERROR with get_handle(
+12:19:48,479 root ERROR 
+
+12:19:48,479 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\pandas\io\common.py", line 642, in get_handle
+
+12:19:48,479 root ERROR     
+12:19:48,479 root ERROR handle = open(
+12:19:48,479 root ERROR 
+
+12:19:48,479 root ERROR PermissionError
+12:19:48,479 root ERROR : 
+12:19:48,479 root ERROR [Errno 13] Permission denied: 'C:\\Users\\Haim\\PycharmProjects\\SeleniumProject\\Selenium\\Scripts\\ACHeatmap.csv'
+12:19:48,479 root ERROR 
+

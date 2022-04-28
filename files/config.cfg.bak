@@ -1,0 +1,30 @@
+[Sanity]
+URL = http://10.1.1.10/ArchitectQA/#/login
+SolveFor = Reoffer
+Amount = 100000
+Asset = MSFT
+UserName = Selenium User
+Password = !Q!Q1q1q
+Payoff = Call Up and Out Option
+
+[UPNOUT]
+URL = https://architect.futora.com/#/login
+SolveFor = Reoffer
+Amount = 100000
+Asset = MSFT
+UserName = Selenium User
+Password = !Q!Q1q1q
+Payoff = Call Up and Out Option
+
+[Autocall]
+URL = https://architect.futora.com/#/login
+SolveFor = Reoffer
+Amount = 100000
+Asset = MSFT
+UserName = Selenium User
+Password = !Q!Q1q1q
+
+[DB]
+DBname=MarketplaceUAT2
+serverdb=10.240.6.15
+

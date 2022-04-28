@@ -1,0 +1,66 @@
+12:12:41,140 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+12:12:41,140 root INFO 
+
+12:12:41,141 root INFO 0
+12:12:41,141 root INFO 
+
+12:12:41,141 root INFO http://10.1.1.10/ArchitectQA/#/login
+12:12:41,141 root INFO  
+12:12:41,141 root INFO TEST-YOGEV-HAI
+12:12:41,141 root INFO 
+
+12:12:41,755 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:63351/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+12:12:41,755 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:63351
+12:12:42,728 urllib3.connectionpool DEBUG http://127.0.0.1:63351 "POST /session HTTP/1.1" 500 1088
+12:12:42,730 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+12:12:44,742 root ERROR Traceback (most recent call last):
+
+12:12:44,742 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\testt.py", line 67, in <module>
+
+12:12:44,742 root ERROR     
+12:12:44,742 root ERROR driver = webdriver.Chrome(executable_path=mainDir + 'Driver\\chromedriver.exe')
+12:12:44,742 root ERROR 
+
+12:12:44,742 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+
+12:12:44,742 root ERROR     
+12:12:44,742 root ERROR RemoteWebDriver.__init__(
+12:12:44,742 root ERROR 
+
+12:12:44,742 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+
+12:12:44,742 root ERROR     
+12:12:44,742 root ERROR self.start_session(capabilities, browser_profile)
+12:12:44,742 root ERROR 
+
+12:12:44,742 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+
+12:12:44,742 root ERROR     
+12:12:44,742 root ERROR response = self.execute(Command.NEW_SESSION, parameters)
+12:12:44,742 root ERROR 
+
+12:12:44,742 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+
+12:12:44,742 root ERROR     
+12:12:44,742 root ERROR self.error_handler.check_response(response)
+12:12:44,742 root ERROR 
+
+12:12:44,742 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+
+12:12:44,742 root ERROR     
+12:12:44,742 root ERROR raise exception_class(message, screen, stacktrace)
+12:12:44,742 root ERROR 
+
+12:12:44,742 root ERROR selenium.common.exceptions
+12:12:44,742 root ERROR .
+12:12:44,742 root ERROR SessionNotCreatedException
+12:12:44,742 root ERROR : 
+12:12:44,742 root ERROR Message: session not created: This version of ChromeDriver only supports Chrome version 94
+Current browser version is 96.0.4664.45 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+
+12:12:44,742 root ERROR 
+

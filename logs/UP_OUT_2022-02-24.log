@@ -1,0 +1,890 @@
+16:35:53,478 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:35:53,478 root INFO 
+
+16:35:53,479 root INFO 0
+16:35:53,479 root INFO 
+
+16:35:53,479 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:64: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=mainDir + 'Driver\\chromedriver.exe' )
+
+16:35:54,29 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:64894/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+16:35:54,31 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:64894
+16:35:55,143 urllib3.connectionpool DEBUG http://localhost:64894 "POST /session HTTP/1.1" 200 788
+16:35:55,143 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:35:55,144 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:64894/session/9d7a9ba97531c061d20269ce07496a9b/url {"url": "https://architect.modelity.com/ArchitectProd/#/login?returnUrl=%2Fhomepage"}
+16:35:56,792 urllib3.connectionpool DEBUG http://localhost:64894 "POST /session/9d7a9ba97531c061d20269ce07496a9b/url HTTP/1.1" 200 14
+16:35:56,792 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:35:58,802 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:69: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//input[@type='text']").send_keys(UserName)
+
+16:35:58,803 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:64894/session/9d7a9ba97531c061d20269ce07496a9b/element {"using": "xpath", "value": "//input[@type='text']"}
+16:35:58,835 urllib3.connectionpool DEBUG http://localhost:64894 "POST /session/9d7a9ba97531c061d20269ce07496a9b/element HTTP/1.1" 200 88
+16:35:58,835 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:35:58,836 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:64894/session/9d7a9ba97531c061d20269ce07496a9b/element/57cd0783-5244-42ff-a481-a00ab40fc264/value {"text": "Selenium User", "value": ["S", "e", "l", "e", "n", "i", "u", "m", " ", "U", "s", "e", "r"], "id": "57cd0783-5244-42ff-a481-a00ab40fc264"}
+16:35:58,927 urllib3.connectionpool DEBUG http://localhost:64894 "POST /session/9d7a9ba97531c061d20269ce07496a9b/element/57cd0783-5244-42ff-a481-a00ab40fc264/value HTTP/1.1" 200 14
+16:35:58,927 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:35:58,927 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:70: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//input[@type='password']").send_keys(Password)
+
+16:35:58,927 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:64894/session/9d7a9ba97531c061d20269ce07496a9b/element {"using": "xpath", "value": "//input[@type='password']"}
+16:35:58,938 urllib3.connectionpool DEBUG http://localhost:64894 "POST /session/9d7a9ba97531c061d20269ce07496a9b/element HTTP/1.1" 200 88
+16:35:58,938 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:35:58,938 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:64894/session/9d7a9ba97531c061d20269ce07496a9b/element/ec9186cb-6ec8-412b-95f8-8d75c3448737/value {"text": "!Q!Q1q1q", "value": ["!", "Q", "!", "Q", "1", "q", "1", "q"], "id": "ec9186cb-6ec8-412b-95f8-8d75c3448737"}
+16:35:58,997 urllib3.connectionpool DEBUG http://localhost:64894 "POST /session/9d7a9ba97531c061d20269ce07496a9b/element/ec9186cb-6ec8-412b-95f8-8d75c3448737/value HTTP/1.1" 200 14
+16:35:58,997 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:35:58,997 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:71: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//button[@type='submit']").click()
+
+16:35:58,997 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:64894/session/9d7a9ba97531c061d20269ce07496a9b/element {"using": "xpath", "value": "//button[@type='submit']"}
+16:35:59,8 urllib3.connectionpool DEBUG http://localhost:64894 "POST /session/9d7a9ba97531c061d20269ce07496a9b/element HTTP/1.1" 200 88
+16:35:59,8 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:35:59,8 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:64894/session/9d7a9ba97531c061d20269ce07496a9b/element/4d33a9c8-ac48-472c-9c62-86af16f1fe06/click {"id": "4d33a9c8-ac48-472c-9c62-86af16f1fe06"}
+16:35:59,36 urllib3.connectionpool DEBUG http://localhost:64894 "POST /session/9d7a9ba97531c061d20269ce07496a9b/element/4d33a9c8-ac48-472c-9c62-86af16f1fe06/click HTTP/1.1" 200 14
+16:35:59,36 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:36:04,46 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:73: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//body/app-root[1]/app-container-page[1]/div[1]/app-homepage[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/select").send_keys(row[0])
+
+16:36:04,46 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:64894/session/9d7a9ba97531c061d20269ce07496a9b/element {"using": "xpath", "value": "//body/app-root[1]/app-container-page[1]/div[1]/app-homepage[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/select"}
+16:36:04,58 urllib3.connectionpool DEBUG http://localhost:64894 "POST /session/9d7a9ba97531c061d20269ce07496a9b/element HTTP/1.1" 200 88
+16:36:04,58 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:36:04,58 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:64894/session/9d7a9ba97531c061d20269ce07496a9b/element/b49b097e-192e-4f73-bc5c-3c75f85fe183/value {"text": "Payoff", "value": ["P", "a", "y", "o", "f", "f"], "id": "b49b097e-192e-4f73-bc5c-3c75f85fe183"}
+16:36:04,115 urllib3.connectionpool DEBUG http://localhost:64894 "POST /session/9d7a9ba97531c061d20269ce07496a9b/element/b49b097e-192e-4f73-bc5c-3c75f85fe183/value HTTP/1.1" 200 14
+16:36:04,116 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:37:26,951 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:37:26,951 root INFO 
+
+16:37:26,951 root ERROR Traceback (most recent call last):
+
+16:37:26,951 root ERROR   File "C:\Program Files\Python39\lib\configparser.py", line 789, in get
+
+16:37:26,953 root ERROR     
+16:37:26,953 root ERROR value = d[option]
+16:37:26,953 root ERROR 
+
+16:37:26,953 root ERROR   File "C:\Program Files\Python39\lib\collections\__init__.py", line 941, in __getitem__
+
+16:37:26,961 root ERROR     
+16:37:26,961 root ERROR return self.__missing__(key)            # support subclasses that define __missing__
+16:37:26,961 root ERROR 
+
+16:37:26,961 root ERROR   File "C:\Program Files\Python39\lib\collections\__init__.py", line 933, in __missing__
+
+16:37:26,961 root ERROR     
+16:37:26,961 root ERROR raise KeyError(key)
+16:37:26,961 root ERROR 
+
+16:37:26,961 root ERROR KeyError
+16:37:26,961 root ERROR : 
+16:37:26,961 root ERROR 'sum_rfqs'
+16:37:26,961 root ERROR 
+
+16:37:26,961 root ERROR 
+During handling of the above exception, another exception occurred:
+
+
+16:37:26,961 root ERROR Traceback (most recent call last):
+
+16:37:26,961 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py", line 49, in <module>
+
+16:37:26,961 root ERROR     
+16:37:26,961 root ERROR sum_RFQs = int(configParser.get('UPNOUT', 'sum_RFQs'))
+16:37:26,961 root ERROR 
+
+16:37:26,961 root ERROR   File "C:\Program Files\Python39\lib\configparser.py", line 792, in get
+
+16:37:26,961 root ERROR     
+16:37:26,961 root ERROR raise NoOptionError(option, section)
+16:37:26,961 root ERROR 
+
+16:37:26,961 root ERROR configparser
+16:37:26,961 root ERROR .
+16:37:26,961 root ERROR NoOptionError
+16:37:26,961 root ERROR : 
+16:37:26,961 root ERROR No option 'sum_rfqs' in section: 'UPNOUT'
+16:37:26,961 root ERROR 
+
+16:38:40,299 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:38:40,299 root INFO 
+
+16:38:40,299 root INFO 0
+16:38:40,299 root INFO 
+
+16:38:40,299 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:64: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=mainDir + 'Driver\\chromedriver.exe' )
+
+16:38:40,842 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:64989/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+16:38:40,842 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:64989
+16:38:41,701 urllib3.connectionpool DEBUG http://localhost:64989 "POST /session HTTP/1.1" 200 787
+16:38:41,701 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:38:41,702 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:64989/session/b99eebda3e8d96a1b722b53a2e15decb/url {"url": "https://10.1.1.10/ArchitectQA/#/login"}
+16:38:42,181 urllib3.connectionpool DEBUG http://localhost:64989 "POST /session/b99eebda3e8d96a1b722b53a2e15decb/url HTTP/1.1" 200 14
+16:38:42,181 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:38:44,198 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:69: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//input[@type='text']").send_keys(UserName)
+
+16:38:44,198 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:64989/session/b99eebda3e8d96a1b722b53a2e15decb/element {"using": "xpath", "value": "//input[@type='text']"}
+16:38:44,198 urllib3.connectionpool DEBUG http://localhost:64989 "POST /session/b99eebda3e8d96a1b722b53a2e15decb/element HTTP/1.1" 404 1030
+16:38:44,213 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:38:44,213 root ERROR Traceback (most recent call last):
+
+16:38:44,213 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py", line 69, in <module>
+
+16:38:44,213 root ERROR     
+16:38:44,213 root ERROR driver.find_element_by_xpath("//input[@type='text']").send_keys(UserName)
+16:38:44,213 root ERROR 
+
+16:38:44,213 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 520, in find_element_by_xpath
+
+16:38:44,213 root ERROR     
+16:38:44,213 root ERROR return self.find_element(by=By.XPATH, value=xpath)
+16:38:44,213 root ERROR 
+
+16:38:44,213 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1244, in find_element
+
+16:38:44,213 root ERROR     
+16:38:44,213 root ERROR return self.execute(Command.FIND_ELEMENT, {
+16:38:44,213 root ERROR 
+
+16:38:44,213 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 424, in execute
+
+16:38:44,220 root ERROR     
+16:38:44,220 root ERROR self.error_handler.check_response(response)
+16:38:44,220 root ERROR 
+
+16:38:44,220 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+
+16:38:44,220 root ERROR     
+16:38:44,220 root ERROR raise exception_class(message, screen, stacktrace)
+16:38:44,220 root ERROR 
+
+16:38:44,220 root ERROR selenium.common.exceptions
+16:38:44,220 root ERROR .
+16:38:44,220 root ERROR NoSuchElementException
+16:38:44,220 root ERROR : 
+16:38:44,220 root ERROR Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='text']"}
+  (Session info: chrome=98.0.4758.102)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01057AC3+2587331]
+	Ordinal0 [0x00FEADD1+2141649]
+	Ordinal0 [0x00EE3BB8+1063864]
+	Ordinal0 [0x00F101CE+1245646]
+	Ordinal0 [0x00F103CB+1246155]
+	Ordinal0 [0x00F3A612+1418770]
+	Ordinal0 [0x00F286D4+1345236]
+	Ordinal0 [0x00F38A0A+1411594]
+	Ordinal0 [0x00F284A6+1344678]
+	Ordinal0 [0x00F053F6+1201142]
+	Ordinal0 [0x00F062E6+1204966]
+	GetHandleVerifier [0x011FDF22+1680738]
+	GetHandleVerifier [0x012B0DBC+2413564]
+	GetHandleVerifier [0x010ED151+563089]
+	GetHandleVerifier [0x010EBF13+558419]
+	Ordinal0 [0x00FF081E+2164766]
+	Ordinal0 [0x00FF5508+2184456]
+	Ordinal0 [0x00FF5650+2184784]
+	Ordinal0 [0x00FFF5BC+2225596]
+	BaseThreadInitThunk [0x7732FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x775775F4+228]
+	RtlGetAppContainerNamedObjectPath [0x775775C4+180]
+
+16:38:44,220 root ERROR 
+
+16:39:29,120 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:39:29,120 root INFO 
+
+16:39:29,120 root INFO 0
+16:39:29,120 root INFO 
+
+16:39:29,120 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:64: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=mainDir + 'Driver\\chromedriver.exe' )
+
+16:39:29,670 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65031/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+16:39:29,670 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:65031
+16:39:30,531 urllib3.connectionpool DEBUG http://localhost:65031 "POST /session HTTP/1.1" 200 786
+16:39:30,532 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:39:30,532 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65031/session/20d2a7223397e88b05bb6bfafa7ed392/url {"url": "https://10.1.1.10/ArchitectQA/#/login"}
+16:39:31,25 urllib3.connectionpool DEBUG http://localhost:65031 "POST /session/20d2a7223397e88b05bb6bfafa7ed392/url HTTP/1.1" 200 14
+16:39:31,26 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:39:33,26 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:69: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//input[@type='text']").send_keys(UserName)
+
+16:39:33,26 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65031/session/20d2a7223397e88b05bb6bfafa7ed392/element {"using": "xpath", "value": "//input[@type='text']"}
+16:39:45,134 urllib3.connectionpool DEBUG http://localhost:65031 "POST /session/20d2a7223397e88b05bb6bfafa7ed392/element HTTP/1.1" 500 983
+16:39:45,134 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:39:45,134 root ERROR Traceback (most recent call last):
+
+16:39:45,134 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py", line 69, in <module>
+
+16:39:45,134 root ERROR     
+16:39:45,134 root ERROR driver.find_element_by_xpath("//input[@type='text']").send_keys(UserName)
+16:39:45,134 root ERROR 
+
+16:39:45,134 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 520, in find_element_by_xpath
+
+16:39:45,134 root ERROR     
+16:39:45,134 root ERROR return self.find_element(by=By.XPATH, value=xpath)
+16:39:45,134 root ERROR 
+
+16:39:45,134 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1244, in find_element
+
+16:39:45,134 root ERROR     
+16:39:45,134 root ERROR return self.execute(Command.FIND_ELEMENT, {
+16:39:45,134 root ERROR 
+
+16:39:45,134 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 424, in execute
+
+16:39:45,134 root ERROR     
+16:39:45,134 root ERROR self.error_handler.check_response(response)
+16:39:45,134 root ERROR 
+
+16:39:45,134 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+
+16:39:45,134 root ERROR     
+16:39:45,150 root ERROR raise exception_class(message, screen, stacktrace)
+16:39:45,150 root ERROR 
+
+16:39:45,150 root ERROR selenium.common.exceptions
+16:39:45,150 root ERROR .
+16:39:45,150 root ERROR WebDriverException
+16:39:45,150 root ERROR : 
+16:39:45,150 root ERROR Message: chrome not reachable
+  (Session info: chrome=98.0.4758.102)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01057AC3+2587331]
+	Ordinal0 [0x00FEADD1+2141649]
+	Ordinal0 [0x00EE3A80+1063552]
+	Ordinal0 [0x00ED8222+1016354]
+	Ordinal0 [0x00ED8A58+1018456]
+	Ordinal0 [0x00EDA292+1024658]
+	Ordinal0 [0x00ED3F79+999289]
+	Ordinal0 [0x00EE4EF0+1068784]
+	Ordinal0 [0x00F381D2+1409490]
+	Ordinal0 [0x00F284A6+1344678]
+	Ordinal0 [0x00F053F6+1201142]
+	Ordinal0 [0x00F062E6+1204966]
+	GetHandleVerifier [0x011FDF22+1680738]
+	GetHandleVerifier [0x012B0DBC+2413564]
+	GetHandleVerifier [0x010ED151+563089]
+	GetHandleVerifier [0x010EBF13+558419]
+	Ordinal0 [0x00FF081E+2164766]
+	Ordinal0 [0x00FF5508+2184456]
+	Ordinal0 [0x00FF5650+2184784]
+	Ordinal0 [0x00FFF5BC+2225596]
+	BaseThreadInitThunk [0x7732FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x775775F4+228]
+	RtlGetAppContainerNamedObjectPath [0x775775C4+180]
+
+16:39:45,150 root ERROR 
+
+16:39:55,941 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:39:55,941 root INFO 
+
+16:39:55,941 root INFO 0
+16:39:55,941 root INFO 
+
+16:39:55,941 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:64: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=mainDir + 'Driver\\chromedriver.exe' )
+
+16:39:56,489 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65074/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+16:39:56,489 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:65074
+16:39:57,267 urllib3.connectionpool DEBUG http://localhost:65074 "POST /session HTTP/1.1" 200 787
+16:39:57,267 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:39:57,267 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65074/session/09eeb62fab48c89ff78bdd13102bee45/url {"url": "https://10.1.1.10/ArchitectQA/#/login"}
+16:39:57,694 urllib3.connectionpool DEBUG http://localhost:65074 "POST /session/09eeb62fab48c89ff78bdd13102bee45/url HTTP/1.1" 200 14
+16:39:57,695 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:39:59,711 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:69: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//input[@type='text']").send_keys(UserName)
+
+16:39:59,711 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65074/session/09eeb62fab48c89ff78bdd13102bee45/element {"using": "xpath", "value": "//input[@type='text']"}
+16:39:59,711 urllib3.connectionpool DEBUG http://localhost:65074 "POST /session/09eeb62fab48c89ff78bdd13102bee45/element HTTP/1.1" 404 1030
+16:39:59,711 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:39:59,711 root ERROR Traceback (most recent call last):
+
+16:39:59,711 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py", line 69, in <module>
+
+16:39:59,711 root ERROR     
+16:39:59,711 root ERROR driver.find_element_by_xpath("//input[@type='text']").send_keys(UserName)
+16:39:59,711 root ERROR 
+
+16:39:59,711 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 520, in find_element_by_xpath
+
+16:39:59,711 root ERROR     
+16:39:59,711 root ERROR return self.find_element(by=By.XPATH, value=xpath)
+16:39:59,711 root ERROR 
+
+16:39:59,711 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1244, in find_element
+
+16:39:59,711 root ERROR     
+16:39:59,711 root ERROR return self.execute(Command.FIND_ELEMENT, {
+16:39:59,711 root ERROR 
+
+16:39:59,711 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 424, in execute
+
+16:39:59,711 root ERROR     
+16:39:59,711 root ERROR self.error_handler.check_response(response)
+16:39:59,711 root ERROR 
+
+16:39:59,711 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+
+16:39:59,711 root ERROR     
+16:39:59,711 root ERROR raise exception_class(message, screen, stacktrace)
+16:39:59,711 root ERROR 
+
+16:39:59,711 root ERROR selenium.common.exceptions
+16:39:59,711 root ERROR .
+16:39:59,711 root ERROR NoSuchElementException
+16:39:59,711 root ERROR : 
+16:39:59,711 root ERROR Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='text']"}
+  (Session info: chrome=98.0.4758.102)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01057AC3+2587331]
+	Ordinal0 [0x00FEADD1+2141649]
+	Ordinal0 [0x00EE3BB8+1063864]
+	Ordinal0 [0x00F101CE+1245646]
+	Ordinal0 [0x00F103CB+1246155]
+	Ordinal0 [0x00F3A612+1418770]
+	Ordinal0 [0x00F286D4+1345236]
+	Ordinal0 [0x00F38A0A+1411594]
+	Ordinal0 [0x00F284A6+1344678]
+	Ordinal0 [0x00F053F6+1201142]
+	Ordinal0 [0x00F062E6+1204966]
+	GetHandleVerifier [0x011FDF22+1680738]
+	GetHandleVerifier [0x012B0DBC+2413564]
+	GetHandleVerifier [0x010ED151+563089]
+	GetHandleVerifier [0x010EBF13+558419]
+	Ordinal0 [0x00FF081E+2164766]
+	Ordinal0 [0x00FF5508+2184456]
+	Ordinal0 [0x00FF5650+2184784]
+	Ordinal0 [0x00FFF5BC+2225596]
+	BaseThreadInitThunk [0x7732FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x775775F4+228]
+	RtlGetAppContainerNamedObjectPath [0x775775C4+180]
+
+16:39:59,711 root ERROR 
+
+16:40:51,896 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:40:51,896 root INFO 
+
+16:40:51,896 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:60: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=mainDir + 'Driver\\chromedriver.exe' )
+
+16:40:52,446 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65114/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+16:40:52,446 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:65114
+16:40:53,332 urllib3.connectionpool DEBUG http://localhost:65114 "POST /session HTTP/1.1" 200 787
+16:40:53,333 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:40:53,333 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65114/session/e3a3d84c63582d44a6d98c338fb23f56/url {"url": "https://10.1.1.10/ArchitectQA/#/login"}
+16:40:53,870 urllib3.connectionpool DEBUG http://localhost:65114 "POST /session/e3a3d84c63582d44a6d98c338fb23f56/url HTTP/1.1" 200 14
+16:40:53,870 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:40:55,892 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:65: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//input[@type='text']").send_keys(UserName)
+
+16:40:55,892 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65114/session/e3a3d84c63582d44a6d98c338fb23f56/element {"using": "xpath", "value": "//input[@type='text']"}
+16:40:55,892 urllib3.connectionpool DEBUG http://localhost:65114 "POST /session/e3a3d84c63582d44a6d98c338fb23f56/element HTTP/1.1" 404 1030
+16:40:55,892 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:40:55,892 root ERROR Traceback (most recent call last):
+
+16:40:55,892 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py", line 65, in <module>
+
+16:40:55,892 root ERROR     
+16:40:55,892 root ERROR driver.find_element_by_xpath("//input[@type='text']").send_keys(UserName)
+16:40:55,892 root ERROR 
+
+16:40:55,907 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 520, in find_element_by_xpath
+
+16:40:55,907 root ERROR     
+16:40:55,907 root ERROR return self.find_element(by=By.XPATH, value=xpath)
+16:40:55,907 root ERROR 
+
+16:40:55,907 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1244, in find_element
+
+16:40:55,907 root ERROR     
+16:40:55,907 root ERROR return self.execute(Command.FIND_ELEMENT, {
+16:40:55,907 root ERROR 
+
+16:40:55,907 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 424, in execute
+
+16:40:55,907 root ERROR     
+16:40:55,907 root ERROR self.error_handler.check_response(response)
+16:40:55,907 root ERROR 
+
+16:40:55,907 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+
+16:40:55,907 root ERROR     
+16:40:55,907 root ERROR raise exception_class(message, screen, stacktrace)
+16:40:55,907 root ERROR 
+
+16:40:55,907 root ERROR selenium.common.exceptions
+16:40:55,907 root ERROR .
+16:40:55,907 root ERROR NoSuchElementException
+16:40:55,907 root ERROR : 
+16:40:55,907 root ERROR Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='text']"}
+  (Session info: chrome=98.0.4758.102)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01057AC3+2587331]
+	Ordinal0 [0x00FEADD1+2141649]
+	Ordinal0 [0x00EE3BB8+1063864]
+	Ordinal0 [0x00F101CE+1245646]
+	Ordinal0 [0x00F103CB+1246155]
+	Ordinal0 [0x00F3A612+1418770]
+	Ordinal0 [0x00F286D4+1345236]
+	Ordinal0 [0x00F38A0A+1411594]
+	Ordinal0 [0x00F284A6+1344678]
+	Ordinal0 [0x00F053F6+1201142]
+	Ordinal0 [0x00F062E6+1204966]
+	GetHandleVerifier [0x011FDF22+1680738]
+	GetHandleVerifier [0x012B0DBC+2413564]
+	GetHandleVerifier [0x010ED151+563089]
+	GetHandleVerifier [0x010EBF13+558419]
+	Ordinal0 [0x00FF081E+2164766]
+	Ordinal0 [0x00FF5508+2184456]
+	Ordinal0 [0x00FF5650+2184784]
+	Ordinal0 [0x00FFF5BC+2225596]
+	BaseThreadInitThunk [0x7732FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x775775F4+228]
+	RtlGetAppContainerNamedObjectPath [0x775775C4+180]
+
+16:40:55,907 root ERROR 
+
+16:41:12,296 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:41:12,296 root INFO 
+
+16:41:12,296 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:60: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=mainDir + 'Driver\\chromedriver.exe' )
+
+16:41:12,850 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65136/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+16:41:12,850 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:65136
+16:41:13,704 urllib3.connectionpool DEBUG http://localhost:65136 "POST /session HTTP/1.1" 200 787
+16:41:13,704 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:41:13,704 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65136/session/5c283b2a6329083e003e16be2bc636c6/url {"url": "https://10.1.1.10/ArchitectQA/#/login"}
+16:41:14,29 urllib3.connectionpool DEBUG http://localhost:65136 "POST /session/5c283b2a6329083e003e16be2bc636c6/url HTTP/1.1" 200 14
+16:41:14,29 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:41:16,43 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:65: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//input[@type='text']").send_keys(UserName)
+
+16:41:16,43 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65136/session/5c283b2a6329083e003e16be2bc636c6/element {"using": "xpath", "value": "//input[@type='text']"}
+16:41:16,49 urllib3.connectionpool DEBUG http://localhost:65136 "POST /session/5c283b2a6329083e003e16be2bc636c6/element HTTP/1.1" 404 1030
+16:41:16,49 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:41:16,49 root ERROR Traceback (most recent call last):
+
+16:41:16,49 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py", line 65, in <module>
+
+16:41:16,49 root ERROR     
+16:41:16,49 root ERROR driver.find_element_by_xpath("//input[@type='text']").send_keys(UserName)
+16:41:16,49 root ERROR 
+
+16:41:16,49 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 520, in find_element_by_xpath
+
+16:41:16,49 root ERROR     
+16:41:16,49 root ERROR return self.find_element(by=By.XPATH, value=xpath)
+16:41:16,49 root ERROR 
+
+16:41:16,49 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1244, in find_element
+
+16:41:16,49 root ERROR     
+16:41:16,49 root ERROR return self.execute(Command.FIND_ELEMENT, {
+16:41:16,49 root ERROR 
+
+16:41:16,49 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 424, in execute
+
+16:41:16,49 root ERROR     
+16:41:16,49 root ERROR self.error_handler.check_response(response)
+16:41:16,49 root ERROR 
+
+16:41:16,49 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+
+16:41:16,49 root ERROR     
+16:41:16,49 root ERROR raise exception_class(message, screen, stacktrace)
+16:41:16,49 root ERROR 
+
+16:41:16,49 root ERROR selenium.common.exceptions
+16:41:16,49 root ERROR .
+16:41:16,49 root ERROR NoSuchElementException
+16:41:16,49 root ERROR : 
+16:41:16,49 root ERROR Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='text']"}
+  (Session info: chrome=98.0.4758.102)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01057AC3+2587331]
+	Ordinal0 [0x00FEADD1+2141649]
+	Ordinal0 [0x00EE3BB8+1063864]
+	Ordinal0 [0x00F101CE+1245646]
+	Ordinal0 [0x00F103CB+1246155]
+	Ordinal0 [0x00F3A612+1418770]
+	Ordinal0 [0x00F286D4+1345236]
+	Ordinal0 [0x00F38A0A+1411594]
+	Ordinal0 [0x00F284A6+1344678]
+	Ordinal0 [0x00F053F6+1201142]
+	Ordinal0 [0x00F062E6+1204966]
+	GetHandleVerifier [0x011FDF22+1680738]
+	GetHandleVerifier [0x012B0DBC+2413564]
+	GetHandleVerifier [0x010ED151+563089]
+	GetHandleVerifier [0x010EBF13+558419]
+	Ordinal0 [0x00FF081E+2164766]
+	Ordinal0 [0x00FF5508+2184456]
+	Ordinal0 [0x00FF5650+2184784]
+	Ordinal0 [0x00FFF5BC+2225596]
+	BaseThreadInitThunk [0x7732FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x775775F4+228]
+	RtlGetAppContainerNamedObjectPath [0x775775C4+180]
+
+16:41:16,49 root ERROR 
+
+16:42:06,78 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:42:06,78 root INFO 
+
+16:42:06,78 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:60: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=mainDir + 'Driver\\chromedriver.exe' )
+
+16:42:06,633 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65176/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+16:42:06,633 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:65176
+16:42:07,513 urllib3.connectionpool DEBUG http://localhost:65176 "POST /session HTTP/1.1" 200 787
+16:42:07,513 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:42:07,514 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65176/session/1167f5d8b9bfe771dff85bd59f8d79fc/url {"url": "http://10.1.1.10/ArchitectQA/#/login"}
+16:42:08,296 urllib3.connectionpool DEBUG http://localhost:65176 "POST /session/1167f5d8b9bfe771dff85bd59f8d79fc/url HTTP/1.1" 200 14
+16:42:08,296 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:42:10,308 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:65: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//input[@type='text']").send_keys(UserName)
+
+16:42:10,308 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65176/session/1167f5d8b9bfe771dff85bd59f8d79fc/element {"using": "xpath", "value": "//input[@type='text']"}
+16:42:10,339 urllib3.connectionpool DEBUG http://localhost:65176 "POST /session/1167f5d8b9bfe771dff85bd59f8d79fc/element HTTP/1.1" 200 88
+16:42:10,355 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:42:10,355 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65176/session/1167f5d8b9bfe771dff85bd59f8d79fc/element/a6d84ed3-65b5-429a-8a0a-238293f61bdd/value {"text": "Architect_Buyer", "value": ["A", "r", "c", "h", "i", "t", "e", "c", "t", "_", "B", "u", "y", "e", "r"], "id": "a6d84ed3-65b5-429a-8a0a-238293f61bdd"}
+16:42:10,430 urllib3.connectionpool DEBUG http://localhost:65176 "POST /session/1167f5d8b9bfe771dff85bd59f8d79fc/element/a6d84ed3-65b5-429a-8a0a-238293f61bdd/value HTTP/1.1" 200 14
+16:42:10,430 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:42:10,430 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:66: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//input[@type='password']").send_keys(Password)
+
+16:42:10,430 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65176/session/1167f5d8b9bfe771dff85bd59f8d79fc/element {"using": "xpath", "value": "//input[@type='password']"}
+16:42:10,441 urllib3.connectionpool DEBUG http://localhost:65176 "POST /session/1167f5d8b9bfe771dff85bd59f8d79fc/element HTTP/1.1" 200 88
+16:42:10,441 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:42:10,441 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65176/session/1167f5d8b9bfe771dff85bd59f8d79fc/element/bc643a0b-e9d6-445b-a0aa-6da1538c31fd/value {"text": "!Q!Q1q1q", "value": ["!", "Q", "!", "Q", "1", "q", "1", "q"], "id": "bc643a0b-e9d6-445b-a0aa-6da1538c31fd"}
+16:42:10,494 urllib3.connectionpool DEBUG http://localhost:65176 "POST /session/1167f5d8b9bfe771dff85bd59f8d79fc/element/bc643a0b-e9d6-445b-a0aa-6da1538c31fd/value HTTP/1.1" 200 14
+16:42:10,495 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:42:10,495 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:67: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//button[@type='submit']").click()
+
+16:42:10,495 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65176/session/1167f5d8b9bfe771dff85bd59f8d79fc/element {"using": "xpath", "value": "//button[@type='submit']"}
+16:42:10,504 urllib3.connectionpool DEBUG http://localhost:65176 "POST /session/1167f5d8b9bfe771dff85bd59f8d79fc/element HTTP/1.1" 200 88
+16:42:10,505 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:42:10,505 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65176/session/1167f5d8b9bfe771dff85bd59f8d79fc/element/d68f55e3-5e0a-4d31-b775-3bd9ae157293/click {"id": "d68f55e3-5e0a-4d31-b775-3bd9ae157293"}
+16:42:10,540 urllib3.connectionpool DEBUG http://localhost:65176 "POST /session/1167f5d8b9bfe771dff85bd59f8d79fc/element/d68f55e3-5e0a-4d31-b775-3bd9ae157293/click HTTP/1.1" 200 14
+16:42:10,540 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:42:15,546 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:69: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//body/app-root[1]/app-container-page[1]/div[1]/app-homepage[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/select").send_keys(row[0])
+
+16:42:15,546 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65176/session/1167f5d8b9bfe771dff85bd59f8d79fc/element {"using": "xpath", "value": "//body/app-root[1]/app-container-page[1]/div[1]/app-homepage[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/select"}
+16:42:15,546 urllib3.connectionpool DEBUG http://localhost:65176 "POST /session/1167f5d8b9bfe771dff85bd59f8d79fc/element HTTP/1.1" 200 88
+16:42:15,546 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:42:15,546 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65176/session/1167f5d8b9bfe771dff85bd59f8d79fc/element/087feaef-869a-4a5c-b9a7-2e80bdf0561c/value {"text": "Payoff", "value": ["P", "a", "y", "o", "f", "f"], "id": "087feaef-869a-4a5c-b9a7-2e80bdf0561c"}
+16:42:15,588 urllib3.connectionpool DEBUG http://localhost:65176 "POST /session/1167f5d8b9bfe771dff85bd59f8d79fc/element/087feaef-869a-4a5c-b9a7-2e80bdf0561c/value HTTP/1.1" 200 14
+16:42:15,588 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:42:22,597 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:71: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//button[contains(text(),'New Trade')]").click()
+
+16:42:22,597 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65176/session/1167f5d8b9bfe771dff85bd59f8d79fc/element {"using": "xpath", "value": "//button[contains(text(),'New Trade')]"}
+16:42:22,635 urllib3.connectionpool DEBUG http://localhost:65176 "POST /session/1167f5d8b9bfe771dff85bd59f8d79fc/element HTTP/1.1" 200 88
+16:42:22,635 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:42:22,635 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65176/session/1167f5d8b9bfe771dff85bd59f8d79fc/element/9556c350-72b5-4e28-ae2d-41ac8a4d00db/click {"id": "9556c350-72b5-4e28-ae2d-41ac8a4d00db"}
+16:42:22,748 urllib3.connectionpool DEBUG http://localhost:65176 "POST /session/1167f5d8b9bfe771dff85bd59f8d79fc/element/9556c350-72b5-4e28-ae2d-41ac8a4d00db/click HTTP/1.1" 200 14
+16:42:22,748 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:43:36,23 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:43:36,23 root INFO 
+
+16:43:36,23 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:61: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(executable_path=mainDir + 'Driver\\chromedriver.exe' )
+
+16:43:36,571 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+16:43:36,571 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:65230
+16:43:37,414 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session HTTP/1.1" 200 786
+16:43:37,415 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:43:37,415 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/url {"url": "http://10.1.1.10/ArchitectQA/#/login"}
+16:43:38,152 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/url HTTP/1.1" 200 14
+16:43:38,152 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:43:40,157 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:66: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//input[@type='text']").send_keys(UserName)
+
+16:43:40,157 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "//input[@type='text']"}
+16:43:40,194 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 200 88
+16:43:40,194 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:43:40,194 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/9d479203-bcde-43b0-a00e-de8150ce293c/value {"text": "Architect_Buyer", "value": ["A", "r", "c", "h", "i", "t", "e", "c", "t", "_", "B", "u", "y", "e", "r"], "id": "9d479203-bcde-43b0-a00e-de8150ce293c"}
+16:43:40,315 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/9d479203-bcde-43b0-a00e-de8150ce293c/value HTTP/1.1" 200 14
+16:43:40,315 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:43:40,315 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:67: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//input[@type='password']").send_keys(Password)
+
+16:43:40,316 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "//input[@type='password']"}
+16:43:40,326 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 200 88
+16:43:40,326 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:43:40,327 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/8dd35a4f-e319-4dc3-bad7-9e8d231fcef9/value {"text": "!Q!Q1q1q", "value": ["!", "Q", "!", "Q", "1", "q", "1", "q"], "id": "8dd35a4f-e319-4dc3-bad7-9e8d231fcef9"}
+16:43:40,378 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/8dd35a4f-e319-4dc3-bad7-9e8d231fcef9/value HTTP/1.1" 200 14
+16:43:40,378 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:43:40,378 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:68: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//button[@type='submit']").click()
+
+16:43:40,378 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "//button[@type='submit']"}
+16:43:40,388 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 200 88
+16:43:40,388 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:43:40,388 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/6ec69cf5-1144-4d3c-a5eb-f18f32d367a3/click {"id": "6ec69cf5-1144-4d3c-a5eb-f18f32d367a3"}
+16:43:40,426 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/6ec69cf5-1144-4d3c-a5eb-f18f32d367a3/click HTTP/1.1" 200 14
+16:43:40,426 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:43:45,435 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:70: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//body/app-root[1]/app-container-page[1]/div[1]/app-homepage[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/select").send_keys(row[0])
+
+16:43:45,435 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "//body/app-root[1]/app-container-page[1]/div[1]/app-homepage[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/select"}
+16:43:45,466 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 200 88
+16:43:45,466 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:43:45,466 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/e3460e21-d7f6-4ecd-8463-71094d27e46a/value {"text": "Call Up and Out Option", "value": ["C", "a", "l", "l", " ", "U", "p", " ", "a", "n", "d", " ", "O", "u", "t", " ", "O", "p", "t", "i", "o", "n"], "id": "e3460e21-d7f6-4ecd-8463-71094d27e46a"}
+16:43:45,587 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/e3460e21-d7f6-4ecd-8463-71094d27e46a/value HTTP/1.1" 200 14
+16:43:45,587 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:43:52,599 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:72: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//button[contains(text(),'New Trade')]").click()
+
+16:43:52,599 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "//button[contains(text(),'New Trade')]"}
+16:43:52,637 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 200 88
+16:43:52,637 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:43:52,637 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/748ebdf8-051c-4359-b5f2-e15b6c3b6b1f/click {"id": "748ebdf8-051c-4359-b5f2-e15b6c3b6b1f"}
+16:43:52,746 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/748ebdf8-051c-4359-b5f2-e15b6c3b6b1f/click HTTP/1.1" 200 14
+16:43:52,746 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:07,768 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:74: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//body/app-root[1]/app-container-page[1]/div[1]/app-product[1]/windows-manager[1]/as-split[1]/as-split-area[2]/wm-window[1]/product-main[1]/div[2]/form[1]/div[1]/dynamic-details-block[3]/div[2]/dynamic-block-content[1]/div[1]/custom-input-holder[1]/div[3]/div[1]/input[1]").clear()
+
+16:44:07,768 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "//body/app-root[1]/app-container-page[1]/div[1]/app-product[1]/windows-manager[1]/as-split[1]/as-split-area[2]/wm-window[1]/product-main[1]/div[2]/form[1]/div[1]/dynamic-details-block[3]/div[2]/dynamic-block-content[1]/div[1]/custom-input-holder[1]/div[3]/div[1]/input[1]"}
+16:44:07,810 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 200 88
+16:44:07,810 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:07,810 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/c990f7e2-d3be-4afa-b2e4-77567bcb3115/clear {"id": "c990f7e2-d3be-4afa-b2e4-77567bcb3115"}
+16:44:07,919 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/c990f7e2-d3be-4afa-b2e4-77567bcb3115/clear HTTP/1.1" 200 14
+16:44:07,920 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:07,920 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:75: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//body/app-root[1]/app-container-page[1]/div[1]/app-product[1]/windows-manager[1]/as-split[1]/as-split-area[2]/wm-window[1]/product-main[1]/div[2]/form[1]/div[1]/dynamic-details-block[3]/div[2]/dynamic-block-content[1]/div[1]/custom-input-holder[1]/div[3]/div[1]/input[1]").send_keys(row[1])
+
+16:44:07,920 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "//body/app-root[1]/app-container-page[1]/div[1]/app-product[1]/windows-manager[1]/as-split[1]/as-split-area[2]/wm-window[1]/product-main[1]/div[2]/form[1]/div[1]/dynamic-details-block[3]/div[2]/dynamic-block-content[1]/div[1]/custom-input-holder[1]/div[3]/div[1]/input[1]"}
+16:44:07,928 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 200 88
+16:44:07,929 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:07,929 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/c990f7e2-d3be-4afa-b2e4-77567bcb3115/value {"text": "20000", "value": ["2", "0", "0", "0", "0"], "id": "c990f7e2-d3be-4afa-b2e4-77567bcb3115"}
+16:44:08,7 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/c990f7e2-d3be-4afa-b2e4-77567bcb3115/value HTTP/1.1" 200 14
+16:44:08,8 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:10,17 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:77: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath('//body/app-root[1]/app-container-page[1]/div[1]/app-product[1]/windows-manager[1]/as-split[1]/as-split-area[2]/wm-window[1]/product-main[1]/div[2]/form[1]/div[1]/dynamic-details-block[2]/div[2]/dynamic-block-content[1]/div[1]/period-mask[1]/div[3]/input[1]').clear()
+
+16:44:10,17 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "//body/app-root[1]/app-container-page[1]/div[1]/app-product[1]/windows-manager[1]/as-split[1]/as-split-area[2]/wm-window[1]/product-main[1]/div[2]/form[1]/div[1]/dynamic-details-block[2]/div[2]/dynamic-block-content[1]/div[1]/period-mask[1]/div[3]/input[1]"}
+16:44:10,64 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 200 88
+16:44:10,64 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:10,64 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/d210c601-d34c-4781-8248-2b3c6d9092a5/clear {"id": "d210c601-d34c-4781-8248-2b3c6d9092a5"}
+16:44:10,140 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/d210c601-d34c-4781-8248-2b3c6d9092a5/clear HTTP/1.1" 200 14
+16:44:10,141 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:12,156 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:79: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath('//body/app-root[1]/app-container-page[1]/div[1]/app-product[1]/windows-manager[1]/as-split[1]/as-split-area[2]/wm-window[1]/product-main[1]/div[2]/form[1]/div[1]/dynamic-details-block[3]/div[2]/dynamic-block-content[1]/div[1]/custom-combobox[2]/div[3]/select').send_keys(row[2])
+
+16:44:12,156 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "//body/app-root[1]/app-container-page[1]/div[1]/app-product[1]/windows-manager[1]/as-split[1]/as-split-area[2]/wm-window[1]/product-main[1]/div[2]/form[1]/div[1]/dynamic-details-block[3]/div[2]/dynamic-block-content[1]/div[1]/custom-combobox[2]/div[3]/select"}
+16:44:12,193 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 200 88
+16:44:12,193 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:12,209 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/8bba6890-92bf-43a8-b88c-ef1325bf864e/value {"text": "Rebate", "value": ["R", "e", "b", "a", "t", "e"], "id": "8bba6890-92bf-43a8-b88c-ef1325bf864e"}
+16:44:12,280 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/8bba6890-92bf-43a8-b88c-ef1325bf864e/value HTTP/1.1" 200 14
+16:44:12,280 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:14,293 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:81: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//input[@name='periodInput']").clear()
+
+16:44:14,293 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "//input[@name='periodInput']"}
+16:44:14,315 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 200 88
+16:44:14,315 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:14,315 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/303ea0f8-a9f1-489d-979f-eb2e39ab7346/clear {"id": "303ea0f8-a9f1-489d-979f-eb2e39ab7346"}
+16:44:14,357 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/303ea0f8-a9f1-489d-979f-eb2e39ab7346/clear HTTP/1.1" 200 14
+16:44:14,357 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:14,358 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:82: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//input[@name='periodInput']").send_keys(row[9])
+
+16:44:14,358 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "//input[@name='periodInput']"}
+16:44:14,365 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 200 88
+16:44:14,365 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:14,365 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/303ea0f8-a9f1-489d-979f-eb2e39ab7346/value {"text": "18M", "value": ["1", "8", "M"], "id": "303ea0f8-a9f1-489d-979f-eb2e39ab7346"}
+16:44:14,411 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/303ea0f8-a9f1-489d-979f-eb2e39ab7346/value HTTP/1.1" 200 14
+16:44:14,411 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:16,423 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:97: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//body/app-root[1]/app-container-page[1]/div[1]/app-product[1]/windows-manager[1]/as-split[1]/as-split-area[2]/wm-window[1]/product-main[1]/div[2]/form[1]/div[1]/dynamic-details-block[3]/div[2]/dynamic-block-content[1]/div[1]/search-select-list[1]/div[3]/input[1]").send_keys(row[counter])
+
+16:44:16,423 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "//body/app-root[1]/app-container-page[1]/div[1]/app-product[1]/windows-manager[1]/as-split[1]/as-split-area[2]/wm-window[1]/product-main[1]/div[2]/form[1]/div[1]/dynamic-details-block[3]/div[2]/dynamic-block-content[1]/div[1]/search-select-list[1]/div[3]/input[1]"}
+16:44:16,439 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 200 88
+16:44:16,439 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:16,439 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/0ac8b6d0-2f9e-4f99-8c67-1cfeed1778f5/value {"text": "AMZN UW Equity", "value": ["A", "M", "Z", "N", " ", "U", "W", " ", "E", "q", "u", "i", "t", "y"], "id": "0ac8b6d0-2f9e-4f99-8c67-1cfeed1778f5"}
+16:44:16,562 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/0ac8b6d0-2f9e-4f99-8c67-1cfeed1778f5/value HTTP/1.1" 200 14
+16:44:16,562 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:17,573 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue015"}, {"type": "keyUp", "value": "\ue015"}]}]}
+16:44:17,632 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/actions HTTP/1.1" 200 14
+16:44:17,633 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:17,633 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue007"}, {"type": "keyUp", "value": "\ue007"}]}]}
+16:44:17,666 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/actions HTTP/1.1" 200 14
+16:44:17,666 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:22,672 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:105: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("(//input[@type='text'])[10]").clear()
+
+16:44:22,672 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "(//input[@type='text'])[10]"}
+16:44:22,703 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 200 88
+16:44:22,703 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:22,703 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/c783bb4e-30c3-4e18-b661-df845076eb5b/clear {"id": "c783bb4e-30c3-4e18-b661-df845076eb5b"}
+16:44:22,772 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/c783bb4e-30c3-4e18-b661-df845076eb5b/clear HTTP/1.1" 200 14
+16:44:22,774 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:25,782 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:107: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("(//input[@type='text'])[10]").send_keys(row[10])
+
+16:44:25,782 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "(//input[@type='text'])[10]"}
+16:44:25,797 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 200 88
+16:44:25,797 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:25,797 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/c783bb4e-30c3-4e18-b661-df845076eb5b/value {"text": "50", "value": ["5", "0"], "id": "c783bb4e-30c3-4e18-b661-df845076eb5b"}
+16:44:25,914 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/c783bb4e-30c3-4e18-b661-df845076eb5b/value HTTP/1.1" 200 14
+16:44:25,915 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:28,922 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:109: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("(//input[@type='text'])[11]").clear()
+
+16:44:28,922 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "(//input[@type='text'])[11]"}
+16:44:28,959 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 200 88
+16:44:28,959 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:28,959 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/1e344a5e-46a3-4d50-8169-79373f7c1036/clear {"id": "1e344a5e-46a3-4d50-8169-79373f7c1036"}
+16:44:29,24 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/1e344a5e-46a3-4d50-8169-79373f7c1036/clear HTTP/1.1" 200 14
+16:44:29,25 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:32,30 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:111: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("(//input[@type='text'])[11]").send_keys(row[12])
+
+16:44:32,30 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "(//input[@type='text'])[11]"}
+16:44:32,52 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 200 88
+16:44:32,52 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:32,52 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/33530499-80d1-460a-acc1-eaf50917e055/value {"text": "160", "value": ["1", "6", "0"], "id": "33530499-80d1-460a-acc1-eaf50917e055"}
+16:44:32,153 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/33530499-80d1-460a-acc1-eaf50917e055/value HTTP/1.1" 200 14
+16:44:32,153 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:32,153 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:113: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("(//input[@type='text'])[13]").clear()
+
+16:44:32,154 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "(//input[@type='text'])[13]"}
+16:44:32,165 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 200 88
+16:44:32,166 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:32,166 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/ffac5e9f-0994-4ad1-a769-876d1e9b9046/clear {"id": "ffac5e9f-0994-4ad1-a769-876d1e9b9046"}
+16:44:32,216 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/ffac5e9f-0994-4ad1-a769-876d1e9b9046/clear HTTP/1.1" 200 14
+16:44:32,217 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:37,221 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:115: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("(//input[@type='text'])[13]").send_keys(row[11])
+
+16:44:37,221 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "(//input[@type='text'])[13]"}
+16:44:37,221 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 200 88
+16:44:37,221 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:37,221 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/b9a546e7-6233-4d08-8170-6c7cdc5a5e68/value {"text": "5.78", "value": ["5", ".", "7", "8"], "id": "b9a546e7-6233-4d08-8170-6c7cdc5a5e68"}
+16:44:37,306 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/b9a546e7-6233-4d08-8170-6c7cdc5a5e68/value HTTP/1.1" 200 14
+16:44:37,306 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:44,318 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:117: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath("//body/app-root[1]/app-container-page[1]/div[1]/app-product[1]/nav[1]/div[1]/div[1]/wm-tab-switch[3]/div[1]/div[1]/div[3]").click()
+
+16:44:44,319 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "//body/app-root[1]/app-container-page[1]/div[1]/app-product[1]/nav[1]/div[1]/div[1]/wm-tab-switch[3]/div[1]/div[1]/div[3]"}
+16:44:44,363 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 200 88
+16:44:44,363 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:44,363 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/6d0f3b1d-b13e-4da1-a8f1-9b3e638f48bf/click {"id": "6d0f3b1d-b13e-4da1-a8f1-9b3e638f48bf"}
+16:44:44,584 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element/6d0f3b1d-b13e-4da1-a8f1-9b3e638f48bf/click HTTP/1.1" 200 14
+16:44:44,585 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:54,589 root ERROR C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py:119: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_xpath( "//body/app-root[1]/app-container-page[1]/div[1]/app-product[1]/windows-manager[1]/as-split[1]/as-split-area[4]/wm-window[1]/app-rfq[1]/div[1]/div[2]/div[1]/custom-status-layer[1]/div[1]").click()
+
+16:44:54,589 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:65230/session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element {"using": "xpath", "value": "//body/app-root[1]/app-container-page[1]/div[1]/app-product[1]/windows-manager[1]/as-split[1]/as-split-area[4]/wm-window[1]/app-rfq[1]/div[1]/div[2]/div[1]/custom-status-layer[1]/div[1]"}
+16:44:54,589 urllib3.connectionpool DEBUG http://localhost:65230 "POST /session/a76e4a61c8c83a6f4f66b1fa36cf4f6e/element HTTP/1.1" 404 1194
+16:44:54,589 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:44:54,589 root ERROR Traceback (most recent call last):
+
+16:44:54,589 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\UPNOUT.py", line 119, in <module>
+
+16:44:54,604 root ERROR     
+16:44:54,604 root ERROR driver.find_element_by_xpath( "//body/app-root[1]/app-container-page[1]/div[1]/app-product[1]/windows-manager[1]/as-split[1]/as-split-area[4]/wm-window[1]/app-rfq[1]/div[1]/div[2]/div[1]/custom-status-layer[1]/div[1]").click()
+16:44:54,604 root ERROR 
+
+16:44:54,604 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 520, in find_element_by_xpath
+
+16:44:54,604 root ERROR     
+16:44:54,604 root ERROR return self.find_element(by=By.XPATH, value=xpath)
+16:44:54,604 root ERROR 
+
+16:44:54,604 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1244, in find_element
+
+16:44:54,604 root ERROR     
+16:44:54,604 root ERROR return self.execute(Command.FIND_ELEMENT, {
+16:44:54,604 root ERROR 
+
+16:44:54,604 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 424, in execute
+
+16:44:54,604 root ERROR     
+16:44:54,604 root ERROR self.error_handler.check_response(response)
+16:44:54,604 root ERROR 
+
+16:44:54,604 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+
+16:44:54,604 root ERROR     
+16:44:54,604 root ERROR raise exception_class(message, screen, stacktrace)
+16:44:54,604 root ERROR 
+
+16:44:54,604 root ERROR selenium.common.exceptions
+16:44:54,604 root ERROR .
+16:44:54,604 root ERROR NoSuchElementException
+16:44:54,604 root ERROR : 
+16:44:54,604 root ERROR Message: no such element: Unable to locate element: {"method":"xpath","selector":"//body/app-root[1]/app-container-page[1]/div[1]/app-product[1]/windows-manager[1]/as-split[1]/as-split-area[4]/wm-window[1]/app-rfq[1]/div[1]/div[2]/div[1]/custom-status-layer[1]/div[1]"}
+  (Session info: chrome=98.0.4758.102)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01057AC3+2587331]
+	Ordinal0 [0x00FEADD1+2141649]
+	Ordinal0 [0x00EE3BB8+1063864]
+	Ordinal0 [0x00F101CE+1245646]
+	Ordinal0 [0x00F103CB+1246155]
+	Ordinal0 [0x00F3A612+1418770]
+	Ordinal0 [0x00F286D4+1345236]
+	Ordinal0 [0x00F38A0A+1411594]
+	Ordinal0 [0x00F284A6+1344678]
+	Ordinal0 [0x00F053F6+1201142]
+	Ordinal0 [0x00F062E6+1204966]
+	GetHandleVerifier [0x011FDF22+1680738]
+	GetHandleVerifier [0x012B0DBC+2413564]
+	GetHandleVerifier [0x010ED151+563089]
+	GetHandleVerifier [0x010EBF13+558419]
+	Ordinal0 [0x00FF081E+2164766]
+	Ordinal0 [0x00FF5508+2184456]
+	Ordinal0 [0x00FF5650+2184784]
+	Ordinal0 [0x00FFF5BC+2225596]
+	BaseThreadInitThunk [0x7732FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x775775F4+228]
+	RtlGetAppContainerNamedObjectPath [0x775775C4+180]
+
+16:44:54,604 root ERROR 
+

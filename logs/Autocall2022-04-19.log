@@ -1,0 +1,277 @@
+09:25:58,451 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+09:25:58,451 root INFO 
+
+09:25:58,552 root ERROR C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\Scripts\run.py:63: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(mainDir + 'Driver\\chromedriver.exe',options=options)
+
+09:25:59,72 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:53085/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}
+09:25:59,110 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:53085
+09:25:59,588 urllib3.connectionpool DEBUG http://localhost:53085 "POST /session HTTP/1.1" 200 789
+09:25:59,588 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+09:25:59,588 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:53085/session/833db2772701539be41c8c0b1f41b82d/timeouts {"implicit": 5000}
+09:25:59,588 urllib3.connectionpool DEBUG http://localhost:53085 "POST /session/833db2772701539be41c8c0b1f41b82d/timeouts HTTP/1.1" 200 14
+09:25:59,588 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+09:25:59,588 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:53085/session/833db2772701539be41c8c0b1f41b82d/url {"url": "http://10.1.1.10/ArchitectQA/#/login"}
+09:25:59,695 urllib3.connectionpool DEBUG http://localhost:53085 "POST /session/833db2772701539be41c8c0b1f41b82d/url HTTP/1.1" 500 1163
+09:25:59,695 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+09:25:59,695 root ERROR Traceback (most recent call last):
+
+09:25:59,695 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\Scripts\run.py", line 67, in <module>
+
+09:25:59,695 root ERROR     
+09:25:59,695 root ERROR driver.get(URL)
+09:25:59,695 root ERROR 
+
+09:25:59,695 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 437, in get
+
+09:25:59,695 root ERROR     
+09:25:59,695 root ERROR self.execute(Command.GET, {'url': url})
+09:25:59,695 root ERROR 
+
+09:25:59,695 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+
+09:25:59,695 root ERROR     
+09:25:59,695 root ERROR self.error_handler.check_response(response)
+09:25:59,695 root ERROR 
+
+09:25:59,695 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+
+09:25:59,695 root ERROR     
+09:25:59,695 root ERROR raise exception_class(message, screen, stacktrace)
+09:25:59,695 root ERROR 
+
+09:25:59,695 root ERROR selenium.common.exceptions
+09:25:59,695 root ERROR .
+09:25:59,695 root ERROR WebDriverException
+09:25:59,695 root ERROR : 
+09:25:59,695 root ERROR Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: headless chrome=100.0.4896.75)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00C57413+2389011]
+	Ordinal0 [0x00BE9F61+1941345]
+	Ordinal0 [0x00ADC658+837208]
+	Ordinal0 [0x00AD8F28+823080]
+	Ordinal0 [0x00ACE27D+778877]
+	Ordinal0 [0x00ACEE3D+781885]
+	Ordinal0 [0x00ACE48A+779402]
+	Ordinal0 [0x00ACDA86+776838]
+	Ordinal0 [0x00ACC995+772501]
+	Ordinal0 [0x00ACCE6D+773741]
+	Ordinal0 [0x00ADDE5A+843354]
+	Ordinal0 [0x00B349BD+1198525]
+	Ordinal0 [0x00B2414C+1130828]
+	Ordinal0 [0x00B34302+1196802]
+	Ordinal0 [0x00B23F66+1130342]
+	Ordinal0 [0x00AFE546+976198]
+	Ordinal0 [0x00AFF456+980054]
+	GetHandleVerifier [0x00E09632+1727522]
+	GetHandleVerifier [0x00EBBA4D+2457661]
+	GetHandleVerifier [0x00CEEB81+569713]
+	GetHandleVerifier [0x00CEDD76+566118]
+	Ordinal0 [0x00BF0B2B+1968939]
+	Ordinal0 [0x00BF5988+1989000]
+	Ordinal0 [0x00BF5A75+1989237]
+	Ordinal0 [0x00BFECB1+2026673]
+	BaseThreadInitThunk [0x7545FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77357A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77357A4E+238]
+
+09:25:59,695 root ERROR 
+
+10:18:36,134 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+10:18:36,134 root INFO 
+
+10:18:36,154 root ERROR C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\Scripts\run.py:63: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(mainDir + 'Driver\\chromedriver.exe',options=options)
+
+10:18:36,679 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:58341/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}
+10:18:36,679 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:58341
+10:18:37,159 urllib3.connectionpool DEBUG http://localhost:58341 "POST /session HTTP/1.1" 200 789
+10:18:37,159 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:18:37,159 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:58341/session/3c9a6074b7ee9cffd8a425068f588499/timeouts {"implicit": 5000}
+10:18:37,159 urllib3.connectionpool DEBUG http://localhost:58341 "POST /session/3c9a6074b7ee9cffd8a425068f588499/timeouts HTTP/1.1" 200 14
+10:18:37,159 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:18:37,159 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:58341/session/3c9a6074b7ee9cffd8a425068f588499/url {"url": "http://10.1.1.10/ArchitectQA/#/login"}
+10:18:37,818 urllib3.connectionpool DEBUG http://localhost:58341 "POST /session/3c9a6074b7ee9cffd8a425068f588499/url HTTP/1.1" 200 14
+10:18:37,819 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:18:39,834 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:58341/session/3c9a6074b7ee9cffd8a425068f588499/element {"using": "xpath", "value": "//input[@type='text']"}
+10:18:39,834 urllib3.connectionpool DEBUG http://localhost:58341 "POST /session/3c9a6074b7ee9cffd8a425068f588499/element HTTP/1.1" 200 88
+10:18:39,834 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:18:39,834 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:58341/session/3c9a6074b7ee9cffd8a425068f588499/element/a8201294-5c32-4086-b843-13b5ebecb4e1/value {"text": "Selenium User", "value": ["S", "e", "l", "e", "n", "i", "u", "m", " ", "U", "s", "e", "r"], "id": "a8201294-5c32-4086-b843-13b5ebecb4e1"}
+10:18:39,898 urllib3.connectionpool DEBUG http://localhost:58341 "POST /session/3c9a6074b7ee9cffd8a425068f588499/element/a8201294-5c32-4086-b843-13b5ebecb4e1/value HTTP/1.1" 200 14
+10:18:39,898 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:18:39,898 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:58341/session/3c9a6074b7ee9cffd8a425068f588499/element {"using": "xpath", "value": "//input[@type='password']"}
+10:18:39,907 urllib3.connectionpool DEBUG http://localhost:58341 "POST /session/3c9a6074b7ee9cffd8a425068f588499/element HTTP/1.1" 200 88
+10:18:39,907 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:18:39,907 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:58341/session/3c9a6074b7ee9cffd8a425068f588499/element/c7ffe779-401e-4598-b143-be75954155d1/value {"text": "!Q!Q1q1q", "value": ["!", "Q", "!", "Q", "1", "q", "1", "q"], "id": "c7ffe779-401e-4598-b143-be75954155d1"}
+10:18:39,950 urllib3.connectionpool DEBUG http://localhost:58341 "POST /session/3c9a6074b7ee9cffd8a425068f588499/element/c7ffe779-401e-4598-b143-be75954155d1/value HTTP/1.1" 200 14
+10:18:39,950 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:18:39,950 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:58341/session/3c9a6074b7ee9cffd8a425068f588499/element {"using": "xpath", "value": "//button[@type='submit']"}
+10:18:39,960 urllib3.connectionpool DEBUG http://localhost:58341 "POST /session/3c9a6074b7ee9cffd8a425068f588499/element HTTP/1.1" 200 88
+10:18:39,961 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:18:39,961 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:58341/session/3c9a6074b7ee9cffd8a425068f588499/element/3449b322-e659-447d-a69f-18225be990dd/click {"id": "3449b322-e659-447d-a69f-18225be990dd"}
+10:18:39,991 urllib3.connectionpool DEBUG http://localhost:58341 "POST /session/3c9a6074b7ee9cffd8a425068f588499/element/3449b322-e659-447d-a69f-18225be990dd/click HTTP/1.1" 200 14
+10:18:39,991 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:18:42,6 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:58341/session/3c9a6074b7ee9cffd8a425068f588499/timeouts {"implicit": 5000}
+10:18:42,7 urllib3.connectionpool DEBUG http://localhost:58341 "POST /session/3c9a6074b7ee9cffd8a425068f588499/timeouts HTTP/1.1" 200 14
+10:18:42,7 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+10:18:48,954 root ERROR Traceback (most recent call last):
+
+10:18:48,956 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\Scripts\run.py", line 74, in <module>
+
+10:18:48,956 root ERROR     
+10:18:48,956 root ERROR time.sleep(7)
+10:18:48,956 root ERROR 
+
+10:18:48,956 root ERROR KeyboardInterrupt
+10:18:48,956 root ERROR 
+10:18:48,956 root ERROR 
+
+16:36:10,544 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:36:10,544 root INFO 
+
+16:36:10,578 root ERROR C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\Scripts\run.py:62: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(mainDir + 'Driver\\chromedriver.exe',options=options)
+
+16:36:11,178 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51608/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}
+16:36:11,178 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:51608
+16:36:11,697 urllib3.connectionpool DEBUG http://localhost:51608 "POST /session HTTP/1.1" 200 788
+16:36:11,697 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:36:11,697 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51608/session/3407fddad44feae3f1934555bf8b3bed/timeouts {"implicit": 5000}
+16:36:11,697 urllib3.connectionpool DEBUG http://localhost:51608 "POST /session/3407fddad44feae3f1934555bf8b3bed/timeouts HTTP/1.1" 200 14
+16:36:11,697 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:36:11,697 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51608/session/3407fddad44feae3f1934555bf8b3bed/url {"url": "http://10.1.1.10/ArchitectQA/#/login"}
+16:36:12,895 urllib3.connectionpool DEBUG http://localhost:51608 "POST /session/3407fddad44feae3f1934555bf8b3bed/url HTTP/1.1" 200 14
+16:36:12,895 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:36:14,907 root ERROR Traceback (most recent call last):
+
+16:36:14,907 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\Scripts\run.py", line 68, in <module>
+
+16:36:14,907 root ERROR     
+16:36:14,907 root ERROR login = LoginPage(driver)
+16:36:14,907 root ERROR 
+
+16:36:14,907 root ERROR NameError
+16:36:14,907 root ERROR : 
+16:36:14,907 root ERROR name 'LoginPage' is not defined
+16:36:14,907 root ERROR 
+
+16:37:17,382 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:37:17,382 root INFO 
+
+16:37:17,418 root ERROR C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\Scripts\run.py:63: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(mainDir + 'Driver\\chromedriver.exe')#,options=options)
+
+16:37:17,933 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51632/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+16:37:17,933 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:51632
+16:37:18,476 urllib3.connectionpool DEBUG http://localhost:51632 "POST /session HTTP/1.1" 200 788
+16:37:18,477 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:37:18,477 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51632/session/d1bb236294286f5e0cfd3044f812c155/timeouts {"implicit": 5000}
+16:37:18,479 urllib3.connectionpool DEBUG http://localhost:51632 "POST /session/d1bb236294286f5e0cfd3044f812c155/timeouts HTTP/1.1" 200 14
+16:37:18,479 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:37:18,479 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51632/session/d1bb236294286f5e0cfd3044f812c155/url {"url": "http://10.1.1.10/ArchitectQA/#/login"}
+16:37:19,637 urllib3.connectionpool DEBUG http://localhost:51632 "POST /session/d1bb236294286f5e0cfd3044f812c155/url HTTP/1.1" 200 14
+16:37:19,637 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:37:21,639 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51632/session/d1bb236294286f5e0cfd3044f812c155/element {"using": "xpath", "value": "//input[@type='text']"}
+16:37:21,669 urllib3.connectionpool DEBUG http://localhost:51632 "POST /session/d1bb236294286f5e0cfd3044f812c155/element HTTP/1.1" 200 88
+16:37:21,669 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:37:21,669 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51632/session/d1bb236294286f5e0cfd3044f812c155/element/1c411736-3bc3-44cb-b12d-999abbae7d62/value {"text": "Selenium User", "value": ["S", "e", "l", "e", "n", "i", "u", "m", " ", "U", "s", "e", "r"], "id": "1c411736-3bc3-44cb-b12d-999abbae7d62"}
+16:37:21,724 urllib3.connectionpool DEBUG http://localhost:51632 "POST /session/d1bb236294286f5e0cfd3044f812c155/element/1c411736-3bc3-44cb-b12d-999abbae7d62/value HTTP/1.1" 200 14
+16:37:21,724 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:37:21,724 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51632/session/d1bb236294286f5e0cfd3044f812c155/element {"using": "xpath", "value": "//input[@type='password']"}
+16:37:21,730 urllib3.connectionpool DEBUG http://localhost:51632 "POST /session/d1bb236294286f5e0cfd3044f812c155/element HTTP/1.1" 200 88
+16:37:21,730 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:37:21,730 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51632/session/d1bb236294286f5e0cfd3044f812c155/element/42e6a645-b28b-47c2-9798-30a635ac7deb/value {"text": "!Q!Q1q1q", "value": ["!", "Q", "!", "Q", "1", "q", "1", "q"], "id": "42e6a645-b28b-47c2-9798-30a635ac7deb"}
+16:37:21,764 urllib3.connectionpool DEBUG http://localhost:51632 "POST /session/d1bb236294286f5e0cfd3044f812c155/element/42e6a645-b28b-47c2-9798-30a635ac7deb/value HTTP/1.1" 200 14
+16:37:21,764 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:37:21,764 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51632/session/d1bb236294286f5e0cfd3044f812c155/element {"using": "xpath", "value": "//button[@type='submit']"}
+16:37:21,771 urllib3.connectionpool DEBUG http://localhost:51632 "POST /session/d1bb236294286f5e0cfd3044f812c155/element HTTP/1.1" 200 88
+16:37:21,771 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:37:21,771 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51632/session/d1bb236294286f5e0cfd3044f812c155/element/a1eee4d0-3081-42de-9bcd-ae2febd403fa/click {"id": "a1eee4d0-3081-42de-9bcd-ae2febd403fa"}
+16:37:21,796 urllib3.connectionpool DEBUG http://localhost:51632 "POST /session/d1bb236294286f5e0cfd3044f812c155/element/a1eee4d0-3081-42de-9bcd-ae2febd403fa/click HTTP/1.1" 200 14
+16:37:21,796 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:37:23,800 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51632/session/d1bb236294286f5e0cfd3044f812c155/timeouts {"implicit": 5000}
+16:37:23,801 urllib3.connectionpool DEBUG http://localhost:51632 "POST /session/d1bb236294286f5e0cfd3044f812c155/timeouts HTTP/1.1" 200 14
+16:37:23,801 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:37:24,412 root ERROR Traceback (most recent call last):
+
+16:37:24,412 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\Scripts\run.py", line 74, in <module>
+
+16:37:24,413 root ERROR     
+16:37:24,413 root ERROR time.sleep(7)
+16:37:24,413 root ERROR 
+
+16:37:24,413 root ERROR KeyboardInterrupt
+16:37:24,413 root ERROR 
+16:37:24,413 root ERROR 
+
+16:39:09,460 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:39:09,460 root INFO 
+
+16:39:09,476 root ERROR C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\architect-selenium-automation\Scripts\run.py:63: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(mainDir + 'Driver\\chromedriver.exe',options=options)
+
+16:39:10,11 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51675/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}
+16:39:10,11 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:51675
+16:39:10,502 urllib3.connectionpool DEBUG http://localhost:51675 "POST /session HTTP/1.1" 200 788
+16:39:10,502 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:39:10,502 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51675/session/71f251e527ba6bc0ebcbf30a070590e1/timeouts {"implicit": 5000}
+16:39:10,502 urllib3.connectionpool DEBUG http://localhost:51675 "POST /session/71f251e527ba6bc0ebcbf30a070590e1/timeouts HTTP/1.1" 200 14
+16:39:10,502 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:39:10,502 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51675/session/71f251e527ba6bc0ebcbf30a070590e1/url {"url": "http://10.1.1.10/ArchitectQA/#/login"}
+16:39:11,438 urllib3.connectionpool DEBUG http://localhost:51675 "POST /session/71f251e527ba6bc0ebcbf30a070590e1/url HTTP/1.1" 200 14
+16:39:11,438 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:39:13,445 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51675/session/71f251e527ba6bc0ebcbf30a070590e1/element {"using": "xpath", "value": "//input[@type='text']"}
+16:39:13,461 urllib3.connectionpool DEBUG http://localhost:51675 "POST /session/71f251e527ba6bc0ebcbf30a070590e1/element HTTP/1.1" 200 88
+16:39:13,461 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:39:13,461 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51675/session/71f251e527ba6bc0ebcbf30a070590e1/element/f20edb33-86cd-47f2-8a9e-219f4135b434/value {"text": "Selenium User", "value": ["S", "e", "l", "e", "n", "i", "u", "m", " ", "U", "s", "e", "r"], "id": "f20edb33-86cd-47f2-8a9e-219f4135b434"}
+16:39:13,507 urllib3.connectionpool DEBUG http://localhost:51675 "POST /session/71f251e527ba6bc0ebcbf30a070590e1/element/f20edb33-86cd-47f2-8a9e-219f4135b434/value HTTP/1.1" 200 14
+16:39:13,507 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:39:13,507 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51675/session/71f251e527ba6bc0ebcbf30a070590e1/element {"using": "xpath", "value": "//input[@type='password']"}
+16:39:13,516 urllib3.connectionpool DEBUG http://localhost:51675 "POST /session/71f251e527ba6bc0ebcbf30a070590e1/element HTTP/1.1" 200 88
+16:39:13,516 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:39:13,516 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51675/session/71f251e527ba6bc0ebcbf30a070590e1/element/d51f4db7-b25a-4f12-b114-35f901b31988/value {"text": "!Q!Q1q1q", "value": ["!", "Q", "!", "Q", "1", "q", "1", "q"], "id": "d51f4db7-b25a-4f12-b114-35f901b31988"}
+16:39:13,554 urllib3.connectionpool DEBUG http://localhost:51675 "POST /session/71f251e527ba6bc0ebcbf30a070590e1/element/d51f4db7-b25a-4f12-b114-35f901b31988/value HTTP/1.1" 200 14
+16:39:13,554 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:39:13,554 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51675/session/71f251e527ba6bc0ebcbf30a070590e1/element {"using": "xpath", "value": "//button[@type='submit']"}
+16:39:13,562 urllib3.connectionpool DEBUG http://localhost:51675 "POST /session/71f251e527ba6bc0ebcbf30a070590e1/element HTTP/1.1" 200 88
+16:39:13,562 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:39:13,562 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51675/session/71f251e527ba6bc0ebcbf30a070590e1/element/0da0e048-cde4-4cde-9bfe-de88b207cf50/click {"id": "0da0e048-cde4-4cde-9bfe-de88b207cf50"}
+16:39:13,586 urllib3.connectionpool DEBUG http://localhost:51675 "POST /session/71f251e527ba6bc0ebcbf30a070590e1/element/0da0e048-cde4-4cde-9bfe-de88b207cf50/click HTTP/1.1" 200 14
+16:39:13,587 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:39:15,606 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:51675/session/71f251e527ba6bc0ebcbf30a070590e1/timeouts {"implicit": 5000}
+16:39:15,609 urllib3.connectionpool DEBUG http://localhost:51675 "POST /session/71f251e527ba6bc0ebcbf30a070590e1/timeouts HTTP/1.1" 200 14
+16:39:15,609 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:39:21,54 root ERROR Traceback (most recent call last):
+
+16:39:21,54 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\architect-selenium-automation\Scripts\run.py", line 74, in <module>
+
+16:39:21,54 root ERROR     
+16:39:21,59 root ERROR time.sleep(7)
+16:39:21,59 root ERROR 
+
+16:39:21,59 root ERROR KeyboardInterrupt
+16:39:21,59 root ERROR 
+16:39:21,59 root ERROR 
+

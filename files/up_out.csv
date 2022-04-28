@@ -1,0 +1,13 @@
+Payoff,Amount,solvefor,assets,asset1,asset2,asset3,asset4,asset5,Maturity,participation,premiun,barrier
+Call Up and Out Option,1000000,Rebate,1,AAPL UW Equity,,,,,24M,50,4.42,150
+Call Up and Out Option,1000000,Rebate,1,CS FP Equity,,,,,36M,50,7.05,150
+Call Up and Out Option,1000000,Rebate,1,ADS GY Equity,,,,,18M,50,2.83,150
+Call Up and Out Option,1000000,Rebate,1,CS FP Equity,,,,,12M,50,1.55,150
+Call Up and Out Option,1000000,Rebate,1,TEVA UN Equity,,,,,24M,100,4.42,140
+Call Up and Out Option,1000000,Rebate,5,DAL UN,ABNB UW,LUV UN,BKNG UW,ALK UN,18M,100,2.83,148
+Call Up and Out Option,1000000,Rebate,5,DAL UN,ABNB UW,LUV UN,BKNG UW,ALK UN,24M,100,4.42,148
+Call Up and Out Option,1000000,Rebate,5,EBAY UW,HD UN,WMT UN,AMZN UW,COST UW,24M,100,4.42,142
+Call Up and Out Option,1000000,Rebate,5,MSFT UW,GOOG UW,AAPL UN,NVDA UW,FB UW,30M,100,5.7,150
+Call Up and Out Option,1000000,Rebate,5,MSFT UW,GOOG UW,AAPL UN,NVDA UW,ADBE UW,30M,100,5.7,150
+Call Up and Out Option,1000000,Rebate,5,MSFT UW,GOOG UW,AAPL UN,NVDA UW,FB UW,30M,100,5.7,155
+Call Up and Out Option,1000000,Rebate,5,MSFT UW,GOOG UW,AAPL UN,NVDA UW,FB UW,30M,100,5.7,160

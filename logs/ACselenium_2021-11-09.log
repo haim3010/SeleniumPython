@@ -1,0 +1,166 @@
+12:03:18,487 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+12:03:18,487 root INFO 
+
+12:03:18,488 root INFO 0
+12:03:18,488 root INFO 
+
+12:03:18,488 root INFO http://10.1.1.10/ArchitectQA/#/login
+12:03:18,488 root INFO  
+12:03:18,488 root INFO TEST-YOGEV-HAI
+12:03:18,488 root INFO 
+
+12:03:18,546 root ERROR Traceback (most recent call last):
+
+12:03:18,547 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\Autocall.py", line 62, in <module>
+
+12:03:18,547 root ERROR     
+12:03:18,547 root ERROR header = next(AC_note)
+12:03:18,547 root ERROR 
+
+12:03:18,547 root ERROR TypeError
+12:03:18,547 root ERROR : 
+12:03:18,548 root ERROR 'DataFrame' object is not an iterator
+12:03:18,548 root ERROR 
+
+12:21:11,753 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+12:21:11,754 root INFO 
+
+12:21:11,754 root INFO 0
+12:21:11,754 root INFO 
+
+12:21:11,754 root INFO http://10.1.1.10/ArchitectQA/#/login
+12:21:11,754 root INFO  
+12:21:11,754 root INFO TEST-YOGEV-HAI
+12:21:11,754 root INFO 
+
+12:21:12,307 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:59114/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+12:21:12,309 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:59114
+12:21:13,142 urllib3.connectionpool DEBUG http://127.0.0.1:59114 "POST /session HTTP/1.1" 200 787
+12:21:13,143 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+12:21:13,143 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:59114/session/301598a911ad1a9ea6be7c161675f8f0/url {"url": "http://10.1.1.10/ArchitectQA/#/login"}
+12:21:14,967 urllib3.connectionpool DEBUG http://127.0.0.1:59114 "POST /session/301598a911ad1a9ea6be7c161675f8f0/url HTTP/1.1" 200 14
+12:21:14,967 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+12:47:37,634 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+12:47:37,635 root INFO 
+
+12:47:37,642 root INFO 0
+12:47:37,642 root INFO 
+
+12:47:37,642 root INFO http://10.1.1.10/ArchitectQA/#/login
+12:47:37,643 root INFO  
+12:47:37,643 root INFO TEST-YOGEV-HAI
+12:47:37,643 root INFO 
+
+12:47:37,644 root ERROR Traceback (most recent call last):
+
+12:47:37,644 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\Autocall.py", line 58, in <module>
+
+12:47:37,644 root ERROR     
+12:47:37,644 root ERROR AC_note = pd.read_excel('C:\\Users\\Haim\\PycharmProjects\\SeleniumProject\\Selenium\\Scripts' + 'ACHeatmap.xlsm', sheet_name='AutocallFinal') # read excel makro
+12:47:37,644 root ERROR 
+
+12:47:37,644 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\pandas\util\_decorators.py", line 299, in wrapper
+
+12:47:37,648 root ERROR     
+12:47:37,648 root ERROR return func(*args, **kwargs)
+12:47:37,648 root ERROR 
+
+12:47:37,648 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\pandas\io\excel\_base.py", line 336, in read_excel
+
+12:47:37,654 root ERROR     
+12:47:37,655 root ERROR io = ExcelFile(io, storage_options=storage_options, engine=engine)
+12:47:37,655 root ERROR 
+
+12:47:37,655 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\pandas\io\excel\_base.py", line 1071, in __init__
+
+12:47:37,656 root ERROR     
+12:47:37,656 root ERROR ext = inspect_excel_format(
+12:47:37,656 root ERROR 
+
+12:47:37,656 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\pandas\io\excel\_base.py", line 949, in inspect_excel_format
+
+12:47:37,657 root ERROR     
+12:47:37,657 root ERROR with get_handle(
+12:47:37,657 root ERROR 
+
+12:47:37,657 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\pandas\io\common.py", line 651, in get_handle
+
+12:47:37,660 root ERROR     
+12:47:37,661 root ERROR handle = open(handle, ioargs.mode)
+12:47:37,661 root ERROR 
+
+12:47:37,661 root ERROR FileNotFoundError
+12:47:37,661 root ERROR : 
+12:47:37,661 root ERROR [Errno 2] No such file or directory: 'C:\\Users\\Haim\\PycharmProjects\\SeleniumProject\\Selenium\\ScriptsACHeatmap.xlsm'
+12:47:37,661 root ERROR 
+
+12:47:59,147 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+12:47:59,147 root INFO 
+
+12:47:59,148 root INFO 0
+12:47:59,148 root INFO 
+
+12:47:59,148 root INFO http://10.1.1.10/ArchitectQA/#/login
+12:47:59,148 root INFO  
+12:47:59,148 root INFO TEST-YOGEV-HAI
+12:47:59,148 root INFO 
+
+12:47:59,148 root ERROR Traceback (most recent call last):
+
+12:47:59,149 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\Scripts\an.py", line 58, in <module>
+
+12:47:59,149 root ERROR     
+12:47:59,149 root ERROR AC_note = pd.read_excel('C:\\Users\\Haim\\PycharmProjects\\SeleniumProject\\Selenium\\Scripts' + 'ACHeatmap.xlsm', sheet_name='AutocallFinal') # read excel makro
+12:47:59,149 root ERROR 
+
+12:47:59,149 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\pandas\util\_decorators.py", line 299, in wrapper
+
+12:47:59,149 root ERROR     
+12:47:59,150 root ERROR return func(*args, **kwargs)
+12:47:59,150 root ERROR 
+
+12:47:59,150 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\pandas\io\excel\_base.py", line 336, in read_excel
+
+12:47:59,150 root ERROR     
+12:47:59,150 root ERROR io = ExcelFile(io, storage_options=storage_options, engine=engine)
+12:47:59,150 root ERROR 
+
+12:47:59,150 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\pandas\io\excel\_base.py", line 1071, in __init__
+
+12:47:59,151 root ERROR     
+12:47:59,151 root ERROR ext = inspect_excel_format(
+12:47:59,151 root ERROR 
+
+12:47:59,151 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\pandas\io\excel\_base.py", line 949, in inspect_excel_format
+
+12:47:59,152 root ERROR     
+12:47:59,152 root ERROR with get_handle(
+12:47:59,152 root ERROR 
+
+12:47:59,153 root ERROR   File "C:\Users\Haim\PycharmProjects\SeleniumProject\Selenium\lib\site-packages\pandas\io\common.py", line 651, in get_handle
+
+12:47:59,153 root ERROR     
+12:47:59,153 root ERROR handle = open(handle, ioargs.mode)
+12:47:59,153 root ERROR 
+
+12:47:59,153 root ERROR FileNotFoundError
+12:47:59,153 root ERROR : 
+12:47:59,153 root ERROR [Errno 2] No such file or directory: 'C:\\Users\\Haim\\PycharmProjects\\SeleniumProject\\Selenium\\ScriptsACHeatmap.xlsm'
+12:47:59,154 root ERROR 
+

@@ -1,0 +1,814 @@
+16:06:29,877 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:06:29,877 root INFO 
+
+16:06:29,882 root ERROR Traceback (most recent call last):
+
+16:06:29,882 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\compat\_optional.py", line 126, in import_optional_dependency
+
+16:06:29,882 root ERROR     
+16:06:29,882 root ERROR module = importlib.import_module(name)
+16:06:29,882 root ERROR 
+
+16:06:29,882 root ERROR   File "C:\Users\haim\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+
+16:06:29,893 root ERROR     
+16:06:29,893 root ERROR return _bootstrap._gcd_import(name[level:], package, level)
+16:06:29,893 root ERROR 
+
+16:06:29,893 root ERROR   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+
+16:06:29,894 root ERROR   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+
+16:06:29,894 root ERROR   File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+
+16:06:29,894 root ERROR ModuleNotFoundError
+16:06:29,894 root ERROR : 
+16:06:29,894 root ERROR No module named 'openpyxl'
+16:06:29,894 root ERROR 
+
+16:06:29,894 root ERROR 
+During handling of the above exception, another exception occurred:
+
+
+16:06:29,894 root ERROR Traceback (most recent call last):
+
+16:06:29,894 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\run.py", line 56, in <module>
+
+16:06:29,894 root ERROR     
+16:06:29,894 root ERROR AC_note = pd.read_excel( mainDir + 'Scripts\\Autocall_rc.xlsm', sheet_name='AutocallFinal') # read excel
+16:06:29,894 root ERROR 
+
+16:06:29,894 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+
+16:06:29,894 root ERROR     
+16:06:29,894 root ERROR return func(*args, **kwargs)
+16:06:29,894 root ERROR 
+
+16:06:29,894 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 457, in read_excel
+
+16:06:29,895 root ERROR     
+16:06:29,895 root ERROR io = ExcelFile(io, storage_options=storage_options, engine=engine)
+16:06:29,895 root ERROR 
+
+16:06:29,895 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 1419, in __init__
+
+16:06:29,895 root ERROR     
+16:06:29,895 root ERROR self._reader = self._engines[engine](self._io, storage_options=storage_options)
+16:06:29,895 root ERROR 
+
+16:06:29,896 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_openpyxl.py", line 524, in __init__
+
+16:06:29,896 root ERROR     
+16:06:29,896 root ERROR import_optional_dependency("openpyxl")
+16:06:29,896 root ERROR 
+
+16:06:29,896 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\compat\_optional.py", line 129, in import_optional_dependency
+
+16:06:29,896 root ERROR     
+16:06:29,896 root ERROR raise ImportError(msg)
+16:06:29,896 root ERROR 
+
+16:06:29,896 root ERROR ImportError
+16:06:29,896 root ERROR : 
+16:06:29,896 root ERROR Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+16:06:29,896 root ERROR 
+
+16:06:50,324 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:06:50,324 root INFO 
+
+16:06:50,326 root ERROR Traceback (most recent call last):
+
+16:06:50,326 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\compat\_optional.py", line 126, in import_optional_dependency
+
+16:06:50,326 root ERROR     
+16:06:50,326 root ERROR module = importlib.import_module(name)
+16:06:50,326 root ERROR 
+
+16:06:50,326 root ERROR   File "C:\Users\haim\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+
+16:06:50,326 root ERROR     
+16:06:50,327 root ERROR return _bootstrap._gcd_import(name[level:], package, level)
+16:06:50,327 root ERROR 
+
+16:06:50,327 root ERROR   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+
+16:06:50,327 root ERROR   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+
+16:06:50,327 root ERROR   File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+
+16:06:50,327 root ERROR ModuleNotFoundError
+16:06:50,327 root ERROR : 
+16:06:50,327 root ERROR No module named 'openpyxl'
+16:06:50,327 root ERROR 
+
+16:06:50,327 root ERROR 
+During handling of the above exception, another exception occurred:
+
+
+16:06:50,327 root ERROR Traceback (most recent call last):
+
+16:06:50,327 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\run.py", line 56, in <module>
+
+16:06:50,327 root ERROR     
+16:06:50,327 root ERROR AC_note = pd.read_excel( mainDir + 'Scripts\\Autocall_rc.xlsm', sheet_name='AutocallFinal') # read excel
+16:06:50,327 root ERROR 
+
+16:06:50,327 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+
+16:06:50,327 root ERROR     
+16:06:50,327 root ERROR return func(*args, **kwargs)
+16:06:50,327 root ERROR 
+
+16:06:50,327 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 457, in read_excel
+
+16:06:50,327 root ERROR     
+16:06:50,327 root ERROR io = ExcelFile(io, storage_options=storage_options, engine=engine)
+16:06:50,327 root ERROR 
+
+16:06:50,327 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 1419, in __init__
+
+16:06:50,329 root ERROR     
+16:06:50,329 root ERROR self._reader = self._engines[engine](self._io, storage_options=storage_options)
+16:06:50,329 root ERROR 
+
+16:06:50,329 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_openpyxl.py", line 524, in __init__
+
+16:06:50,329 root ERROR     
+16:06:50,329 root ERROR import_optional_dependency("openpyxl")
+16:06:50,329 root ERROR 
+
+16:06:50,329 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\compat\_optional.py", line 129, in import_optional_dependency
+
+16:06:50,329 root ERROR     
+16:06:50,329 root ERROR raise ImportError(msg)
+16:06:50,329 root ERROR 
+
+16:06:50,329 root ERROR ImportError
+16:06:50,329 root ERROR : 
+16:06:50,329 root ERROR Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+16:06:50,329 root ERROR 
+
+16:07:07,364 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:07:07,364 root INFO 
+
+16:07:07,365 root ERROR Traceback (most recent call last):
+
+16:07:07,366 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\compat\_optional.py", line 126, in import_optional_dependency
+
+16:07:07,366 root ERROR     
+16:07:07,366 root ERROR module = importlib.import_module(name)
+16:07:07,366 root ERROR 
+
+16:07:07,366 root ERROR   File "C:\Users\haim\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+
+16:07:07,366 root ERROR     
+16:07:07,366 root ERROR return _bootstrap._gcd_import(name[level:], package, level)
+16:07:07,366 root ERROR 
+
+16:07:07,366 root ERROR   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+
+16:07:07,366 root ERROR   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+
+16:07:07,366 root ERROR   File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+
+16:07:07,367 root ERROR ModuleNotFoundError
+16:07:07,367 root ERROR : 
+16:07:07,367 root ERROR No module named 'openpyxl'
+16:07:07,367 root ERROR 
+
+16:07:07,367 root ERROR 
+During handling of the above exception, another exception occurred:
+
+
+16:07:07,367 root ERROR Traceback (most recent call last):
+
+16:07:07,367 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\run.py", line 56, in <module>
+
+16:07:07,367 root ERROR     
+16:07:07,367 root ERROR AC_note = pd.read_excel( mainDir + 'Scripts\\Autocall_rc.xlsm', sheet_name='AutocallFinal') # read excel
+16:07:07,367 root ERROR 
+
+16:07:07,367 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+
+16:07:07,367 root ERROR     
+16:07:07,367 root ERROR return func(*args, **kwargs)
+16:07:07,367 root ERROR 
+
+16:07:07,367 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 457, in read_excel
+
+16:07:07,367 root ERROR     
+16:07:07,367 root ERROR io = ExcelFile(io, storage_options=storage_options, engine=engine)
+16:07:07,367 root ERROR 
+
+16:07:07,367 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 1419, in __init__
+
+16:07:07,368 root ERROR     
+16:07:07,368 root ERROR self._reader = self._engines[engine](self._io, storage_options=storage_options)
+16:07:07,368 root ERROR 
+
+16:07:07,368 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_openpyxl.py", line 524, in __init__
+
+16:07:07,368 root ERROR     
+16:07:07,368 root ERROR import_optional_dependency("openpyxl")
+16:07:07,368 root ERROR 
+
+16:07:07,368 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\compat\_optional.py", line 129, in import_optional_dependency
+
+16:07:07,368 root ERROR     
+16:07:07,368 root ERROR raise ImportError(msg)
+16:07:07,368 root ERROR 
+
+16:07:07,368 root ERROR ImportError
+16:07:07,368 root ERROR : 
+16:07:07,368 root ERROR Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+16:07:07,368 root ERROR 
+
+16:08:22,588 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:08:22,589 root INFO 
+
+16:08:22,591 root ERROR Traceback (most recent call last):
+
+16:08:22,591 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\compat\_optional.py", line 126, in import_optional_dependency
+
+16:08:22,591 root ERROR     
+16:08:22,591 root ERROR module = importlib.import_module(name)
+16:08:22,591 root ERROR 
+
+16:08:22,591 root ERROR   File "C:\Users\haim\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+
+16:08:22,591 root ERROR     
+16:08:22,591 root ERROR return _bootstrap._gcd_import(name[level:], package, level)
+16:08:22,591 root ERROR 
+
+16:08:22,591 root ERROR   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+
+16:08:22,591 root ERROR   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+
+16:08:22,592 root ERROR   File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+
+16:08:22,592 root ERROR ModuleNotFoundError
+16:08:22,592 root ERROR : 
+16:08:22,592 root ERROR No module named 'openpyxl'
+16:08:22,592 root ERROR 
+
+16:08:22,592 root ERROR 
+During handling of the above exception, another exception occurred:
+
+
+16:08:22,592 root ERROR Traceback (most recent call last):
+
+16:08:22,592 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\run.py", line 56, in <module>
+
+16:08:22,592 root ERROR     
+16:08:22,592 root ERROR AC_note = pd.read_excel( mainDir + 'Scripts\\Autocall_rc.xlsm', sheet_name='AutocallFinal') # read excel
+16:08:22,592 root ERROR 
+
+16:08:22,592 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+
+16:08:22,592 root ERROR     
+16:08:22,592 root ERROR return func(*args, **kwargs)
+16:08:22,592 root ERROR 
+
+16:08:22,593 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 457, in read_excel
+
+16:08:22,593 root ERROR     
+16:08:22,593 root ERROR io = ExcelFile(io, storage_options=storage_options, engine=engine)
+16:08:22,593 root ERROR 
+
+16:08:22,593 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 1419, in __init__
+
+16:08:22,593 root ERROR     
+16:08:22,593 root ERROR self._reader = self._engines[engine](self._io, storage_options=storage_options)
+16:08:22,593 root ERROR 
+
+16:08:22,593 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_openpyxl.py", line 524, in __init__
+
+16:08:22,593 root ERROR     
+16:08:22,594 root ERROR import_optional_dependency("openpyxl")
+16:08:22,594 root ERROR 
+
+16:08:22,594 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\compat\_optional.py", line 129, in import_optional_dependency
+
+16:08:22,594 root ERROR     
+16:08:22,594 root ERROR raise ImportError(msg)
+16:08:22,594 root ERROR 
+
+16:08:22,594 root ERROR ImportError
+16:08:22,594 root ERROR : 
+16:08:22,594 root ERROR Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+16:08:22,594 root ERROR 
+
+16:12:11,179 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:12:11,179 root INFO 
+
+16:12:11,181 root ERROR Traceback (most recent call last):
+
+16:12:11,181 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\compat\_optional.py", line 126, in import_optional_dependency
+
+16:12:11,181 root ERROR     
+16:12:11,181 root ERROR module = importlib.import_module(name)
+16:12:11,181 root ERROR 
+
+16:12:11,181 root ERROR   File "C:\Users\haim\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+
+16:12:11,182 root ERROR     
+16:12:11,182 root ERROR return _bootstrap._gcd_import(name[level:], package, level)
+16:12:11,182 root ERROR 
+
+16:12:11,182 root ERROR   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+
+16:12:11,182 root ERROR   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+
+16:12:11,182 root ERROR   File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+
+16:12:11,182 root ERROR ModuleNotFoundError
+16:12:11,182 root ERROR : 
+16:12:11,182 root ERROR No module named 'openpyxl'
+16:12:11,182 root ERROR 
+
+16:12:11,182 root ERROR 
+During handling of the above exception, another exception occurred:
+
+
+16:12:11,182 root ERROR Traceback (most recent call last):
+
+16:12:11,182 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\run.py", line 57, in <module>
+
+16:12:11,183 root ERROR     
+16:12:11,183 root ERROR AC_note = pd.read_excel( mainDir + 'Scripts\\Autocall_rc.xlsm', sheet_name='AutocallFinal') # read excel
+16:12:11,183 root ERROR 
+
+16:12:11,183 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+
+16:12:11,183 root ERROR     
+16:12:11,183 root ERROR return func(*args, **kwargs)
+16:12:11,183 root ERROR 
+
+16:12:11,183 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 457, in read_excel
+
+16:12:11,183 root ERROR     
+16:12:11,183 root ERROR io = ExcelFile(io, storage_options=storage_options, engine=engine)
+16:12:11,183 root ERROR 
+
+16:12:11,183 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 1419, in __init__
+
+16:12:11,184 root ERROR     
+16:12:11,184 root ERROR self._reader = self._engines[engine](self._io, storage_options=storage_options)
+16:12:11,184 root ERROR 
+
+16:12:11,184 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_openpyxl.py", line 524, in __init__
+
+16:12:11,184 root ERROR     
+16:12:11,184 root ERROR import_optional_dependency("openpyxl")
+16:12:11,184 root ERROR 
+
+16:12:11,184 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\compat\_optional.py", line 129, in import_optional_dependency
+
+16:12:11,184 root ERROR     
+16:12:11,184 root ERROR raise ImportError(msg)
+16:12:11,184 root ERROR 
+
+16:12:11,184 root ERROR ImportError
+16:12:11,184 root ERROR : 
+16:12:11,184 root ERROR Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+16:12:11,184 root ERROR 
+
+16:15:29,337 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:15:29,337 root INFO 
+
+16:15:29,339 root ERROR Traceback (most recent call last):
+
+16:15:29,339 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\compat\_optional.py", line 126, in import_optional_dependency
+
+16:15:29,339 root ERROR     
+16:15:29,339 root ERROR module = importlib.import_module(name)
+16:15:29,339 root ERROR 
+
+16:15:29,339 root ERROR   File "C:\Users\haim\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+
+16:15:29,339 root ERROR     
+16:15:29,339 root ERROR return _bootstrap._gcd_import(name[level:], package, level)
+16:15:29,339 root ERROR 
+
+16:15:29,339 root ERROR   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+
+16:15:29,340 root ERROR   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+
+16:15:29,340 root ERROR   File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+
+16:15:29,340 root ERROR ModuleNotFoundError
+16:15:29,340 root ERROR : 
+16:15:29,340 root ERROR No module named 'openpyxl'
+16:15:29,340 root ERROR 
+
+16:15:29,340 root ERROR 
+During handling of the above exception, another exception occurred:
+
+
+16:15:29,340 root ERROR Traceback (most recent call last):
+
+16:15:29,340 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\run.py", line 55, in <module>
+
+16:15:29,340 root ERROR     
+16:15:29,340 root ERROR AC_note = pd.read_excel( mainDir + 'Scripts\\Autocall_rc.xlsm', sheet_name='AutocallFinal') # read excel
+16:15:29,340 root ERROR 
+
+16:15:29,340 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+
+16:15:29,340 root ERROR     
+16:15:29,340 root ERROR return func(*args, **kwargs)
+16:15:29,340 root ERROR 
+
+16:15:29,341 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 457, in read_excel
+
+16:15:29,341 root ERROR     
+16:15:29,341 root ERROR io = ExcelFile(io, storage_options=storage_options, engine=engine)
+16:15:29,341 root ERROR 
+
+16:15:29,341 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 1419, in __init__
+
+16:15:29,341 root ERROR     
+16:15:29,341 root ERROR self._reader = self._engines[engine](self._io, storage_options=storage_options)
+16:15:29,341 root ERROR 
+
+16:15:29,341 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_openpyxl.py", line 524, in __init__
+
+16:15:29,341 root ERROR     
+16:15:29,341 root ERROR import_optional_dependency("openpyxl")
+16:15:29,341 root ERROR 
+
+16:15:29,341 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\compat\_optional.py", line 129, in import_optional_dependency
+
+16:15:29,342 root ERROR     
+16:15:29,342 root ERROR raise ImportError(msg)
+16:15:29,342 root ERROR 
+
+16:15:29,342 root ERROR ImportError
+16:15:29,342 root ERROR : 
+16:15:29,342 root ERROR Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+16:15:29,342 root ERROR 
+
+16:17:47,126 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:17:47,126 root INFO 
+
+16:17:47,128 root ERROR Traceback (most recent call last):
+
+16:17:47,128 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\compat\_optional.py", line 126, in import_optional_dependency
+
+16:17:47,128 root ERROR     
+16:17:47,128 root ERROR module = importlib.import_module(name)
+16:17:47,128 root ERROR 
+
+16:17:47,129 root ERROR   File "C:\Users\haim\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+
+16:17:47,129 root ERROR     
+16:17:47,129 root ERROR return _bootstrap._gcd_import(name[level:], package, level)
+16:17:47,129 root ERROR 
+
+16:17:47,129 root ERROR   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+
+16:17:47,129 root ERROR   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+
+16:17:47,129 root ERROR   File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+
+16:17:47,129 root ERROR ModuleNotFoundError
+16:17:47,129 root ERROR : 
+16:17:47,129 root ERROR No module named 'openpyxl'
+16:17:47,129 root ERROR 
+
+16:17:47,129 root ERROR 
+During handling of the above exception, another exception occurred:
+
+
+16:17:47,129 root ERROR Traceback (most recent call last):
+
+16:17:47,129 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\run.py", line 55, in <module>
+
+16:17:47,129 root ERROR     
+16:17:47,129 root ERROR AC_note = pd.read_excel( mainDir + 'Scripts\\Autocall_rc.xlsm', sheet_name='AutocallFinal') # read excel
+16:17:47,129 root ERROR 
+
+16:17:47,129 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+
+16:17:47,130 root ERROR     
+16:17:47,130 root ERROR return func(*args, **kwargs)
+16:17:47,130 root ERROR 
+
+16:17:47,130 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 457, in read_excel
+
+16:17:47,130 root ERROR     
+16:17:47,130 root ERROR io = ExcelFile(io, storage_options=storage_options, engine=engine)
+16:17:47,130 root ERROR 
+
+16:17:47,130 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 1419, in __init__
+
+16:17:47,130 root ERROR     
+16:17:47,130 root ERROR self._reader = self._engines[engine](self._io, storage_options=storage_options)
+16:17:47,130 root ERROR 
+
+16:17:47,130 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_openpyxl.py", line 524, in __init__
+
+16:17:47,131 root ERROR     
+16:17:47,131 root ERROR import_optional_dependency("openpyxl")
+16:17:47,131 root ERROR 
+
+16:17:47,131 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\compat\_optional.py", line 129, in import_optional_dependency
+
+16:17:47,131 root ERROR     
+16:17:47,131 root ERROR raise ImportError(msg)
+16:17:47,131 root ERROR 
+
+16:17:47,131 root ERROR ImportError
+16:17:47,131 root ERROR : 
+16:17:47,131 root ERROR Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+16:17:47,131 root ERROR 
+
+16:17:50,470 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:17:50,470 root INFO 
+
+16:17:50,472 root ERROR Traceback (most recent call last):
+
+16:17:50,472 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\compat\_optional.py", line 126, in import_optional_dependency
+
+16:17:50,472 root ERROR     
+16:17:50,472 root ERROR module = importlib.import_module(name)
+16:17:50,472 root ERROR 
+
+16:17:50,472 root ERROR   File "C:\Users\haim\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+
+16:17:50,472 root ERROR     
+16:17:50,472 root ERROR return _bootstrap._gcd_import(name[level:], package, level)
+16:17:50,472 root ERROR 
+
+16:17:50,472 root ERROR   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+
+16:17:50,472 root ERROR   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+
+16:17:50,473 root ERROR   File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+
+16:17:50,473 root ERROR ModuleNotFoundError
+16:17:50,473 root ERROR : 
+16:17:50,473 root ERROR No module named 'openpyxl'
+16:17:50,473 root ERROR 
+
+16:17:50,473 root ERROR 
+During handling of the above exception, another exception occurred:
+
+
+16:17:50,473 root ERROR Traceback (most recent call last):
+
+16:17:50,473 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\run.py", line 55, in <module>
+
+16:17:50,473 root ERROR     
+16:17:50,473 root ERROR AC_note = pd.read_excel( mainDir + 'Scripts\\Autocall_rc.xlsm', sheet_name='AutocallFinal') # read excel
+16:17:50,473 root ERROR 
+
+16:17:50,473 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+
+16:17:50,473 root ERROR     
+16:17:50,473 root ERROR return func(*args, **kwargs)
+16:17:50,473 root ERROR 
+
+16:17:50,473 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 457, in read_excel
+
+16:17:50,474 root ERROR     
+16:17:50,474 root ERROR io = ExcelFile(io, storage_options=storage_options, engine=engine)
+16:17:50,474 root ERROR 
+
+16:17:50,474 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 1419, in __init__
+
+16:17:50,474 root ERROR     
+16:17:50,474 root ERROR self._reader = self._engines[engine](self._io, storage_options=storage_options)
+16:17:50,474 root ERROR 
+
+16:17:50,474 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_openpyxl.py", line 524, in __init__
+
+16:17:50,474 root ERROR     
+16:17:50,474 root ERROR import_optional_dependency("openpyxl")
+16:17:50,474 root ERROR 
+
+16:17:50,474 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\compat\_optional.py", line 129, in import_optional_dependency
+
+16:17:50,474 root ERROR     
+16:17:50,474 root ERROR raise ImportError(msg)
+16:17:50,474 root ERROR 
+
+16:17:50,474 root ERROR ImportError
+16:17:50,474 root ERROR : 
+16:17:50,474 root ERROR Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+16:17:50,474 root ERROR 
+
+16:18:03,512 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:18:03,512 root INFO 
+
+16:18:03,512 root ERROR C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\run.py:67: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(mainDir + 'Driver\\chromedriver.exe',options=options)
+
+16:18:04,23 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:49724/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}
+16:18:04,23 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:49724
+16:18:04,484 urllib3.connectionpool DEBUG http://localhost:49724 "POST /session HTTP/1.1" 200 786
+16:18:04,484 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:18:04,484 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:49724/session/a60c7150c37d629b975a4c6ca34dc699/timeouts {"implicit": 5000}
+16:18:04,487 urllib3.connectionpool DEBUG http://localhost:49724 "POST /session/a60c7150c37d629b975a4c6ca34dc699/timeouts HTTP/1.1" 200 14
+16:18:04,487 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:18:04,487 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:49724/session/a60c7150c37d629b975a4c6ca34dc699/url {"url": "https://architect.modelity.com/ArchitectProd/#/login"}
+16:18:06,404 urllib3.connectionpool DEBUG http://localhost:49724 "POST /session/a60c7150c37d629b975a4c6ca34dc699/url HTTP/1.1" 200 14
+16:18:06,405 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:18:08,419 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:49724/session/a60c7150c37d629b975a4c6ca34dc699/element {"using": "xpath", "value": "//input[@type='text']"}
+16:18:08,426 urllib3.connectionpool DEBUG http://localhost:49724 "POST /session/a60c7150c37d629b975a4c6ca34dc699/element HTTP/1.1" 200 88
+16:18:08,427 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:18:08,427 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:49724/session/a60c7150c37d629b975a4c6ca34dc699/element/59aed236-8bfd-4ee9-9ba8-a299cc79f926/value {"text": "Selenium User", "value": ["S", "e", "l", "e", "n", "i", "u", "m", " ", "U", "s", "e", "r"], "id": "59aed236-8bfd-4ee9-9ba8-a299cc79f926"}
+16:18:08,460 urllib3.connectionpool DEBUG http://localhost:49724 "POST /session/a60c7150c37d629b975a4c6ca34dc699/element/59aed236-8bfd-4ee9-9ba8-a299cc79f926/value HTTP/1.1" 200 14
+16:18:08,460 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:18:08,460 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:49724/session/a60c7150c37d629b975a4c6ca34dc699/element {"using": "xpath", "value": "//input[@type='password']"}
+16:18:08,467 urllib3.connectionpool DEBUG http://localhost:49724 "POST /session/a60c7150c37d629b975a4c6ca34dc699/element HTTP/1.1" 200 88
+16:18:08,468 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:18:08,468 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:49724/session/a60c7150c37d629b975a4c6ca34dc699/element/59c98318-9c2d-42e7-9e65-df8be9a5ec2c/value {"text": "!Q!Q1q1q", "value": ["!", "Q", "!", "Q", "1", "q", "1", "q"], "id": "59c98318-9c2d-42e7-9e65-df8be9a5ec2c"}
+16:18:08,497 urllib3.connectionpool DEBUG http://localhost:49724 "POST /session/a60c7150c37d629b975a4c6ca34dc699/element/59c98318-9c2d-42e7-9e65-df8be9a5ec2c/value HTTP/1.1" 200 14
+16:18:08,497 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:18:08,497 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:49724/session/a60c7150c37d629b975a4c6ca34dc699/element {"using": "xpath", "value": "//button[@type='submit']"}
+16:18:08,504 urllib3.connectionpool DEBUG http://localhost:49724 "POST /session/a60c7150c37d629b975a4c6ca34dc699/element HTTP/1.1" 200 88
+16:18:08,504 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:18:08,504 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:49724/session/a60c7150c37d629b975a4c6ca34dc699/element/4ab21d62-1fd6-4348-9ab8-de490df3efce/click {"id": "4ab21d62-1fd6-4348-9ab8-de490df3efce"}
+16:18:08,525 urllib3.connectionpool DEBUG http://localhost:49724 "POST /session/a60c7150c37d629b975a4c6ca34dc699/element/4ab21d62-1fd6-4348-9ab8-de490df3efce/click HTTP/1.1" 200 14
+16:18:08,525 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:18:10,538 selenium.webdriver.remote.remote_connection DEBUG POST http://localhost:49724/session/a60c7150c37d629b975a4c6ca34dc699/timeouts {"implicit": 5000}
+16:18:10,540 urllib3.connectionpool DEBUG http://localhost:49724 "POST /session/a60c7150c37d629b975a4c6ca34dc699/timeouts HTTP/1.1" 200 14
+16:18:10,540 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+16:18:13,468 root ERROR Traceback (most recent call last):
+
+16:18:13,468 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\run.py", line 78, in <module>
+
+16:18:13,468 root ERROR     
+16:18:13,468 root ERROR time.sleep(7)
+16:18:13,468 root ERROR 
+
+16:18:13,468 root ERROR KeyboardInterrupt
+16:18:13,468 root ERROR 
+16:18:13,468 root ERROR 
+
+16:21:35,841 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:21:35,841 root INFO 
+
+16:21:35,846 root ERROR Traceback (most recent call last):
+
+16:21:35,846 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\compat\_optional.py", line 126, in import_optional_dependency
+
+16:21:35,847 root ERROR     
+16:21:35,847 root ERROR module = importlib.import_module(name)
+16:21:35,847 root ERROR 
+
+16:21:35,847 root ERROR   File "C:\Users\haim\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py", line 127, in import_module
+
+16:21:35,848 root ERROR     
+16:21:35,849 root ERROR return _bootstrap._gcd_import(name[level:], package, level)
+16:21:35,849 root ERROR 
+
+16:21:35,849 root ERROR   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+
+16:21:35,849 root ERROR   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+
+16:21:35,849 root ERROR   File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+
+16:21:35,850 root ERROR ModuleNotFoundError
+16:21:35,850 root ERROR : 
+16:21:35,850 root ERROR No module named 'openpyxl'
+16:21:35,850 root ERROR 
+
+16:21:35,850 root ERROR 
+During handling of the above exception, another exception occurred:
+
+
+16:21:35,850 root ERROR Traceback (most recent call last):
+
+16:21:35,850 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\run.py", line 53, in <module>
+
+16:21:35,850 root ERROR     
+16:21:35,850 root ERROR AC_note = pd.read_excel( 'C:\\Users\haim\\PycharmProjects\\SeleniumProject\\Selenium\\Scripts\\Autocall_rc.xlsm', sheet_name='AutocallFinal') # read excel
+16:21:35,850 root ERROR 
+
+16:21:35,850 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+
+16:21:35,852 root ERROR     
+16:21:35,852 root ERROR return func(*args, **kwargs)
+16:21:35,852 root ERROR 
+
+16:21:35,852 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 457, in read_excel
+
+16:21:35,856 root ERROR     
+16:21:35,856 root ERROR io = ExcelFile(io, storage_options=storage_options, engine=engine)
+16:21:35,856 root ERROR 
+
+16:21:35,856 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 1419, in __init__
+
+16:21:35,856 root ERROR     
+16:21:35,856 root ERROR self._reader = self._engines[engine](self._io, storage_options=storage_options)
+16:21:35,856 root ERROR 
+
+16:21:35,856 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_openpyxl.py", line 524, in __init__
+
+16:21:35,859 root ERROR     
+16:21:35,859 root ERROR import_optional_dependency("openpyxl")
+16:21:35,859 root ERROR 
+
+16:21:35,859 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\compat\_optional.py", line 129, in import_optional_dependency
+
+16:21:35,859 root ERROR     
+16:21:35,859 root ERROR raise ImportError(msg)
+16:21:35,859 root ERROR 
+
+16:21:35,859 root ERROR ImportError
+16:21:35,859 root ERROR : 
+16:21:35,859 root ERROR Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+16:21:35,859 root ERROR 
+
+16:22:39,145 root INFO 
+====================================================
+================= START OF PROCESS =================
+====================================================
+
+16:22:39,145 root INFO 
+
+16:22:39,146 root ERROR Traceback (most recent call last):
+
+16:22:39,146 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\Selenium\run.py", line 53, in <module>
+
+16:22:39,147 root ERROR     
+16:22:39,147 root ERROR AC_note = pd.read_excel( 'C:\\Users\haim\\PycharmProjects\\SeleniumProject\\Selenium\\files\\Autocall_rc.xlsm', sheet_name='AutocallFinal') # read excel
+16:22:39,147 root ERROR 
+
+16:22:39,147 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+
+16:22:39,147 root ERROR     
+16:22:39,147 root ERROR return func(*args, **kwargs)
+16:22:39,147 root ERROR 
+
+16:22:39,147 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 457, in read_excel
+
+16:22:39,147 root ERROR     
+16:22:39,147 root ERROR io = ExcelFile(io, storage_options=storage_options, engine=engine)
+16:22:39,147 root ERROR 
+
+16:22:39,148 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 1376, in __init__
+
+16:22:39,148 root ERROR     
+16:22:39,148 root ERROR ext = inspect_excel_format(
+16:22:39,148 root ERROR 
+
+16:22:39,148 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\excel\_base.py", line 1250, in inspect_excel_format
+
+16:22:39,148 root ERROR     
+16:22:39,148 root ERROR with get_handle(
+16:22:39,148 root ERROR 
+
+16:22:39,148 root ERROR   File "C:\Users\haim\PycharmProjects\SeleniumProject\venv\lib\site-packages\pandas\io\common.py", line 798, in get_handle
+
+16:22:39,153 root ERROR     
+16:22:39,153 root ERROR handle = open(handle, ioargs.mode)
+16:22:39,153 root ERROR 
+
+16:22:39,153 root ERROR FileNotFoundError
+16:22:39,153 root ERROR : 
+16:22:39,153 root ERROR [Errno 2] No such file or directory: 'C:\\Users\\haim\\PycharmProjects\\SeleniumProject\\Selenium\\files\\Autocall_rc.xlsm'
+16:22:39,153 root ERROR 
+
